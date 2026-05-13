@@ -1,0 +1,17 @@
+common:
+  errors:
+    guild_only: >
+      Hey, dude... This command can only be used in servers {sob}{pray}
+    missing_manage_server: >
+      Only the server owner, admins and users with the
+      "{manage_server_permission}" permission can use this command.
+
+  buttons:
+      open_panel: 'Take me to the pannel'
+
+  success:
+    dm_sent: 'Sent it to your DMs! ;)'
+
+  status:
+    active: 'Enabled'
+    disabled: 'Disabled'

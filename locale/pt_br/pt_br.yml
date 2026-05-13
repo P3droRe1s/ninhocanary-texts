@@ -1,11 +1,10 @@
 config:
   errors:
     guild_only: >
-      Ei, cara... Este comando só pode ser utilizado em servidores 😭🙏
-
+      Ei, cara... Este comando só pode ser utilizado em servidores {sob}{pray}
     missing_permission: >
       Apenas o dono do servidor, administradores e pessoas com a permissão
-      "Gerenciar Servidor" podem utilizar esse comando.
+      "{manage_server_permission}" podem utilizar esse comando.
 
   buttons:
     open_panel: 'Leve-me até o painel'
@@ -15,10 +14,8 @@ config:
 
   embed:
     title: 'Configurações'
-
     global_xp_warning: >
       Vale ressaltar que essas configurações não vão afetar o ganho de XP global.
-
     description: >
       Aqui você pode configurar meu comportamento para atender às suas
       necessidades no servidor. Logo abaixo, você poderá escolher uma opção

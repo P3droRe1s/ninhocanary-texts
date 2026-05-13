@@ -33,9 +33,9 @@ Mais idiomas poderão ser adicionados futuramente.
 
 ```txt
 locales/
-├── pt-BR/
-├── en-US/
-└── es-ES/
+├── pt-br/
+├── en-us/
+└── es-es/
 ```
 
 Cada idioma possui seus próprios arquivos organizados por categoria/sistema.

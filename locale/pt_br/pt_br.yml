@@ -1,23 +1,13 @@
-config:
+common:
   errors:
     guild_only: >
       Ei, cara... Este comando só pode ser utilizado em servidores {sob}{pray}
-    missing_permission: >
+    missing_manage_server: >
       Apenas o dono do servidor, administradores e pessoas com a permissão
       "{manage_server_permission}" podem utilizar esse comando.
 
   buttons:
-    open_panel: 'Leve-me até o painel'
+      open_panel: 'Leve-me até o painel'
 
   success:
-    dm_sent: 'Enviei o painel de configuração na sua DM! ;)'
-
-  embed:
-    title: 'Configurações'
-    global_xp_warning: >
-      Vale ressaltar que essas configurações não vão afetar o ganho de XP global.
-    description: >
-      Aqui você pode configurar meu comportamento para atender às suas
-      necessidades no servidor. Logo abaixo, você poderá escolher uma opção
-      para ver mais detalhes ou configurar do seu jeitinho. Em caso de dúvidas
-      ou problemas, não hesite em entrar em contato no servidor de suporte.
+    dm_sent: 'Enviei na sua DM! ;)'

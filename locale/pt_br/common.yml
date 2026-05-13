@@ -5,6 +5,14 @@ common:
     missing_manage_server: >
       Apenas o dono do servidor, administradores e pessoas com a permissão
       "{manage_server_permission}" podem utilizar esse comando.
+    command_loading: >
+      Macho, esse comando ainda está carregando. Tenta de novo em alguns segundos, kkk.
+      Se continuar acontecendo, chama a gente no {support_guild_hyperlink}.
+    unexpected_error: >
+      Meu mano, deu um erro cabuloso aqui, kkkkk. Fale com o pessoal no
+      {support_guild_hyperlink}.
+
+  support: '[servidor de suporte]({support_guild})'
 
   buttons:
       open_panel: 'Leve-me até o painel'

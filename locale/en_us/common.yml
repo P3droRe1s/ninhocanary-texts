@@ -5,14 +5,21 @@ common:
     missing_manage_server: >
       Only the server owner, admins and users with the
       "{manage_server_permission}" permission can use this command.
+    command_loading: >
+      Man, this command is still loading. Try again in a few seconds, lol.
+      If it keeps happening, reach out to us at {support_guild_hyperlink}.
+    unexpected_error: >
+      Bro, something went really wrong here, lol. Please contact the team at
+      {support_guild_hyperlink}.
 
+  support: "[Support server]({support_guild})"
+  
   buttons:
-      open_panel: 'Take me to the pannel'
+    open_panel: "Take me to the pannel"
 
   success:
-    dm_sent: 'Sent it to your DMs! ;)'
+    dm_sent: "Sent it to your DMs! ;)"
 
   status:
-    active: 'Enabled'
-    disabled: 'Disabled'
-  
+    active: "Enabled"
+    disabled: "Disabled"

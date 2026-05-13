@@ -1,0 +1,13 @@
+common:
+  errors:
+    guild_only: >
+      Ei, cara... Este comando só pode ser utilizado em servidores {sob}{pray}
+    missing_manage_server: >
+      Apenas o dono do servidor, administradores e pessoas com a permissão
+      "{manage_server_permission}" podem utilizar esse comando.
+
+  buttons:
+      open_panel: 'Leve-me até o painel'
+
+  success:
+    dm_sent: 'Enviei na sua DM! ;)'

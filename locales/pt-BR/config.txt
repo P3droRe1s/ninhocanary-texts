@@ -1,0 +1,16 @@
+[ERROS]
+Ei, cara... Este comando só pode ser utilizado em servidores 😭🙏
+Apenas o dono do servidor, administradores e pessoas com a permissão "Gerenciar Servidor" podem utilizar esse comando.
+
+[BOTÃO]
+Leve-me até o painel
+
+[SUCESSO]
+Enviei o painel de configuração na sua DM! ;)
+
+[EMBED]
+Vale ressaltar que essas configurações não vão afetar o ganho de XP global.
+Aqui você pode configurar meu comportamento para atender às suas necessidades no servidor. Logo abaixo, você poderá escolher uma opção para ver mais detalhes ou configurar do seu jeitinho. Em caso de dúvidas ou problemas, não hesite em entrar em contato no servidor de suporte.
+
+[TITLE]
+Configurações

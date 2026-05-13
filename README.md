@@ -1,2 +1,58 @@
-# ninhocanary-texts
-Textos, traduções e sistema de localização do NinhoCanary.
+Repositório responsável pelos textos e traduções do NinhoCanary.
+
+## Objetivo
+
+Centralizar todas as mensagens utilizadas pelo Ninho em um único lugar, facilitando:
+
+- Tradução para novos idiomas
+- Organização dos textos
+- Colaboração entre desenvolvedores/tradutores
+- Manutenção do bot
+- Padronização das mensagens
+
+---
+
+## O que existe aqui?
+
+- Mensagens de comandos
+- Embeds
+- Respostas de erro
+- Mensagens automáticas
+- Textos de interface
+- Arquivos de localização (`locales`)
+
+---
+
+## Idiomas suportados
+
+Atualmente o projeto possui suporte para:
+
+- Português (Brasil)
+
+Mais idiomas poderão ser adicionados futuramente.
+
+---
+
+## Estrutura
+
+```txt
+locales/
+├── pt-BR/
+├── en-US/
+└── es-ES/
+```
+
+Cada idioma possui seus próprios arquivos organizados por categoria/sistema.
+
+---
+
+## Contribuindo
+
+Pull requests são bem-vindos.
+
+Caso queira ajudar com:
+- Traduções
+- Correções
+- Melhorias nos textos
+
+Sinta-se livre para contribuir.

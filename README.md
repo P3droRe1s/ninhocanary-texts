@@ -10,8 +10,6 @@ Centralizar todas as mensagens utilizadas pelo Ninho em um único lugar, facilit
 - Manutenção do bot
 - Padronização das mensagens
 
----
-
 ## O que existe aqui?
 
 - Mensagens de comandos
@@ -21,8 +19,6 @@ Centralizar todas as mensagens utilizadas pelo Ninho em um único lugar, facilit
 - Textos de interface
 - Arquivos de localização (`locales`)
 
----
-
 ## Idiomas suportados
 
 Atualmente o projeto possui suporte para:
@@ -30,8 +26,6 @@ Atualmente o projeto possui suporte para:
 - Português (Brasil)
 
 Mais idiomas poderão ser adicionados futuramente.
-
----
 
 ## Estrutura
 
@@ -44,9 +38,7 @@ locales/
 
 Cada idioma possui seus próprios arquivos organizados por categoria/sistema.
 
----
-
-## Contribuindo
+## Contribuições
 
 Pull requests são bem-vindos.
 

@@ -1,4 +1,8 @@
 config:
+  aliases:
+    - configurar
+    - settings
+
   embed:
     title: 'Configurações'
     global_xp_warning: >

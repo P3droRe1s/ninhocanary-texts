@@ -11,3 +11,7 @@ common:
 
   success:
     dm_sent: 'Enviei na sua DM! ;)'
+
+  status:
+    active: 'Ativado'
+    disabled: 'Desativado'

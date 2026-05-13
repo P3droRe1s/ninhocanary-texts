@@ -1,3 +1,5 @@
+# NinhoCanary Texts## Objetivo
+
 Repositório responsável pelos textos e traduções do NinhoCanary.
 
 ## Objetivo

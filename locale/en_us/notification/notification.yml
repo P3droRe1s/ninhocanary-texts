@@ -1,8 +1,4 @@
 notification:
-  aliases:
-    - notificação
-    - notification
-
   success:
     toggled_message: >
       Nice! Level-up messages in your DMs have been

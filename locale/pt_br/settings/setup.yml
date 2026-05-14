@@ -1,8 +1,4 @@
 setup:
-  aliases:
-    - configurar
-    - setup
-
   embed:
     title: 'Configurações'
     global_xp_warning: >

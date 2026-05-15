@@ -26,6 +26,9 @@ Centralizar todas as mensagens utilizadas pelo Ninho em um único lugar, facilit
 Atualmente o projeto possui suporte para:
 
 - Português (Brasil)
+- Inglês (Estados Unidos)
+- Espanhol (Espanha)
+- Alemão (Alemanha)
 
 Mais idiomas poderão ser adicionados futuramente.
 
@@ -33,9 +36,9 @@ Mais idiomas poderão ser adicionados futuramente.
 
 ```txt
 locales/
-├── pt-br/
-├── en-us/
-└── es-es/
+├── pt_br/
+├── en_us/
+└── es_es/
 ```
 
 Cada idioma possui seus próprios arquivos organizados por categoria/sistema.

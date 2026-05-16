@@ -1,0 +1,11 @@
+common:
+  buttons:
+    confirm:
+      label: 'Yeah, sure!'
+    cancel:
+      label: 'I don`t know yet...'
+
+    disabled_stacking:
+      label: 'Disable stacking'
+    enable_stacking:
+      label: 'Enable stacking'

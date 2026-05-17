@@ -1,0 +1,2 @@
+default_message: >
+  Nice, {user_mention}! You`ve just reached level {user_level}. {fire}

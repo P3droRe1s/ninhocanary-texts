@@ -1,0 +1,113 @@
+level_notification_options:
+  buttons:
+    disable_notifications:
+      label: 'Desativar notificações'
+    enbale_notifications:
+      label: 'Ativar notificações'
+
+    disable_level_up_notification:
+      label: 'Desativar notificação de level up'
+    enable_level_up_notification:
+      label: 'Ativar notificação de level up'
+
+    edit_level_up_message:
+      label: 'Editar mensgem de level up'
+
+  embed:
+    title: 'Editar Mensagem de Level Up'
+    description: >
+      Aqui você pode deixar a mensagem de level up do jeitinho que quiser:
+      escolher onde ela vai ser enviada, definir de quantos em quantos níveis
+      ela aparece e testar tudo para ver como fica.
+    notification_status: 'Módulo de notificação: {status}.'
+    level_up_status: 'Notificação de level up: {status}.'
+    channel_status: 'Em qual canal a mensagem será enviada: {channel}.'
+    interval: 'A cada quantos níveis a mensagem será enviada: {interval}.'
+    dm_notify: 'Notificar via DM: {status}.'
+
+  channel_none: 'sem canal'
+
+  note: >
+    {obs} Algumas configurações aqui podem não funcionar direito,
+    porque a notificação de level up está desativada. {warning}
+
+edit_level_messages_options:
+  buttons:
+    test_message:
+      label: 'Ei! Isto é uma mensagem de teste'
+
+    test_dm_message:
+      label: >
+        Mensagem de teste enviada do servidor "{guild_name}"
+
+    edit_message:
+      label: 'Editar mensagem'
+
+    show_message:
+      label: 'Mostrar mensagem'
+
+    test_message:
+      label: 'Testar mensagem'
+
+    placeholders_list:
+      label: 'Lista de variáveis'
+
+  errors:
+    dm_forbidden: >
+      Bro, tentei te mandar a mensagem de teste na DM, mas ela
+      tá fechada neste servidor. Ativa ela aí e tenta de novo.
+    channel_forbidden: >
+      Meu mano, tentei mandar a mensagem de teste no canal que você
+      escolheu, mas acho que tô sem permissão para fazer isso... só acho.
+      Dá uma olhada aí.
+
+  placeholders_embed:
+    title: 'Lista de Variáveis'
+    description: |
+      Aqui estão algumas variáveis que você pode usar para personalizar a sua
+      mensagem de level up maneira. É só colocar uma delas no texto que irei exibir
+      o valor certinho na hora.
+
+      - {user_mention_str}: menciona o usuário.
+      - {user_name_str}: mostra o nome exibido do usuário.
+      - {user_id_str}: mostra o ID do usuário.
+      - {user_tag_str}: mostra o nome global do usuário.
+      - {user_level_str}: mostra o nível atual do usuário.
+      - {user_xp_total_str}: mostra o XP total do usuário.
+      - {user_xp_textual_str}: mostra o XP textual do usuário.
+      - {user_xp_vocal_str}: mostra o XP vocal do usuário.
+      - {user_next_level_str}: mostra o próximo nível do usuário.
+      - {user_ranking_str}: mostra a posição do usuário no rank do servidor.
+      - {user_next_level_required_xp}: mostra quanto XP falta pro próximo nível.
+      - {user_next_level_total_xp}: mostra o XP total necessário pro próximo nível.
+
+edit_notification_level_up_message_options:
+  buttons:
+    disable_dm_notification:
+      label: 'Desativar notificação por DM'
+    enable_dm_notification:
+      label: 'Ativar notificação por DM'
+
+    manage_message:
+      label: 'Gerenciar mensagem'
+
+    change_channel:
+      label: 'Trocar canal'
+
+    change_interval:
+      label: 'Trocar intervalo'
+
+  modals:
+    change_channel:
+      title: 'Alterar canal'
+      label: 'Novo canal'
+      placeholder: 'Digite o ID do canal ou deixe em branco para remover o atual'
+
+  embed:
+    title: 'Gerenciar Mensagem'
+    description: >
+      Aqui você pode editar a mensagem de level up que os membros do servidor
+      recebem quando sobem de nível, ver qual mensagem está configurada agora
+      e testar como ela será enviada e exibida para os membros.
+
+      {support_text}

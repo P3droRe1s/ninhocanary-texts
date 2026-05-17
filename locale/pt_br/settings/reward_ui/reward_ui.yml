@@ -1,0 +1,71 @@
+confirm_reward_delete:
+  embed:
+    rewards_amount: 'Quantidade de recompensas: {amount}.'
+
+manage_rewards_options:
+  buttons:
+    disable_rewards:
+      label: 'Desativar recompensas'
+    enable_rewards:
+      label: 'Ativar recompensas'
+
+    add_reward:
+      label: 'Adicionar recompensa'
+    
+    edit_reward:
+      label: 'Editar recompensas'
+
+  modals:
+    errors:
+      reward_defined: 'Cara, esse cargo já é uma recompensa kkkkk'
+
+    add_role:
+      title: 'Adicionar Recompensa'
+      label: 'Nova recompensa'    
+
+  embed:
+    title: 'Editar Cargos de Recompensa'
+    description: >
+      Aqui você poderá escolher um cargo de recompensa já criado para visualizar,
+      editar suas configurações ou excluir, caso queira. Logo abaixo, há um menu
+      com todas as recompensas criadas neste servidor. Basta clicar nele e
+      selecionar a recompensa desejada.
+
+      {support_text}
+    reward_status: 'Recompensas: {status}.'
+    stacking_status: 'Empilhar recompensas: {status}.'
+
+  embed_role:
+    description: >
+      Aqui você pode ajustar como este cargo de recompensa será desbloqueado
+      e quanto XP o membro precisa para ter ele.
+
+      Cargo: {role_formatted}.
+      Tipo de XP: {xp_type}.
+      XP necessário: {xp}.
+
+      {support_text}
+
+  xp_type_list:
+    - total
+    - textual
+    - vocal
+
+  note: >
+    {obs} Algumas configurações aqui podem não funcionar direito,
+    porque os cargos de recompensa estão desativados. {warning}
+
+manage_role_reward_options:
+  buttons:
+    edit_unlock:
+      label: 'Alterar tipo de XP'
+
+    edit_xp:
+      label: 'Alterar XP necessário'
+
+    delete_reward:
+      label: 'Deletar recompensa'
+
+    messages:
+      delete_message: >
+        Tem certeza que quer deletar a recompensa "{role_mention}"?

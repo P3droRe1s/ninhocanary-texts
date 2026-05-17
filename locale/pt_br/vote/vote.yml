@@ -1,0 +1,17 @@
+vote:
+  boost_message: 'boost de +10% no ganho de XP'
+
+  button:
+    label: 'Quero votar agora!'
+
+  embed:
+    title: 'Dar um votinho no TOP.GG'
+    description: >
+      E aí, {user_mention}! Você tem interesse em me ajudar a crescer
+      e me tornar um bot cada vez melhor? Se sim, vote em mim no TOP.GG!
+
+      Cada voto me ajuda a ficar mais popular no Discord e faz com que
+      novas pessoas me conheçam. Com isso, posso melhorar ainda mais e
+      receber novas funcionalidades que vão beneficiar você diretamente.
+
+      E, como recompensa por me ajudar, irei lhe dar um {boost_message} :D

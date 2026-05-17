@@ -1,0 +1,45 @@
+common:
+  errors:
+    guild_only: >
+      Ei, cara... Este comando só pode ser utilizado em servidores. {sob}{pray}
+    missing_admin: >
+      Apenas o dono do servidor e administradores podem utilizar esse comando.
+    missing_manage_server: >
+      Apenas o dono do servidor, administradores e pessoas com a permissão
+      "{manage_server_permission}" podem utilizar esse comando.
+    command_loading: >
+      Macho, esse comando ainda está carregando. Tenta de novo em alguns segundos, kkk.
+      Se continuar acontecendo, chama a gente no {support_guild_hyperlink}.
+    unexpected_error: >
+      Meu mano, deu um erro cabuloso aqui, kkkkk. Fale com o pessoal no
+      {support_guild_hyperlink}.
+    user_not_found: >
+      Mano, não achei esse usuário aqui no servidor não. Tem certeza que
+      digitou o nome certinho? {sob}
+    invalid_role_id: >
+      Lil bro, escreve o ID direito, esse daí nem representa um cargo válido. {skull}
+    invalid_position: >
+      Bro, esse cargo tá acima do meu na hierarquia, não gostei {sob}.
+      Coloca meu cargo acima dele aí pra eu conseguir recompensar os
+      membros. {thumbsup}'
+    invalid_channel: >
+      Oops, esse ID aí não parece ser de um canal válido {skull}.
+      Confere ele direito e tenta de novo.
+
+  support: '[servidor de suporte]({support_guild})'
+
+  buttons:
+      open_panel: 'Leve-me até o painel'
+
+  menus:
+    select_option: 'Selecione uma opção...'
+
+  success:
+    dm_sent: 'Enviei na sua DM! ;)'
+
+  status:
+    actived: 'Ativado'
+    disabled: 'Desativado'
+
+    yes: 'Sim'
+    no: 'Não'

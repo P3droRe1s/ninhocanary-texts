@@ -1,0 +1,4 @@
+select_option:
+  manage_multiplier_options:
+    embed:
+      mul_size: '{text} {size} de {max}.'

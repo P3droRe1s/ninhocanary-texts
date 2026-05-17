@@ -1,0 +1,17 @@
+common:
+  buttons:
+    confirm:
+      label: 'Claro que sim!'
+    cancel:
+      label: 'Ainda não sei...'
+
+    disable_stacking:
+      label: 'Desativar empilhamento'
+    enable_stacking:
+      label: 'Ativar empilhamento'
+
+  modals:
+    placeholder: 'Digite o ID do cargo'
+
+  embed:
+    title: 'Editar "{role_name}"'

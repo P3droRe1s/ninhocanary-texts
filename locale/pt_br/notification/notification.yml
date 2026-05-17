@@ -1,5 +1,0 @@
-notification:
-  success:
-    toggled_message: >
-      Aí sim! As mensagens de level up na sua DM foram
-      {status} com sucesso, rapá.

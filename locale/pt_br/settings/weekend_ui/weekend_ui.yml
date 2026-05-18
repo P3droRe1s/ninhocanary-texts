@@ -13,10 +13,15 @@ manage_weekend_options:
     chance_xp_boost:
       label: 'Alterar bônus de XP'
 
+  modals:
+    title: 'Alterar bônus de XP'
+    label: 'Novo valor do bônus de XP'
+
   embed:
-    weekend_status: 'Bônus de fim de semana: {status}.'
-    friday_status: 'Bônus na sexta-feira: {status}.'
+    weekend_status: '**Bônus de fim de semana:** {status}.'
+    friday_status: '**Bônus na sexta-feira:** {status}.'
+    xp_multiplier: '**Bônus de XP:** {multiplier}x.'
 
   note: >
-    {obs} Algumas configurações aqui podem não funcionar direito,
+    **OBS:** Algumas configurações aqui podem não funcionar direito,
     porque o bônus de fim de semana está desativado. {warning}

@@ -19,9 +19,9 @@ common:
     invalid_role_id: >
       Lil bro, escreve o ID direito, esse daí nem representa um cargo válido. {skull}
     invalid_position: >
-      Bro, esse cargo tá acima do meu na hierarquia, não gostei {sob}.
+      Bro, esse cargo tá acima do meu na hierarquia, não gostei.
       Coloca meu cargo acima dele aí pra eu conseguir recompensar os
-      membros. {thumbsup}'
+      membros. {thumbsup}
     invalid_channel: >
       Oops, esse ID aí não parece ser de um canal válido {skull}.
       Confere ele direito e tenta de novo.

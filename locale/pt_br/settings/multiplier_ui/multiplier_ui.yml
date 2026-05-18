@@ -16,7 +16,7 @@ manage_multiplier_options:
       multiplier_defined: 'Mano, esse cargo já é um multiplicador de XP kkkkk'
       invalid_multiplier: >
         Ei, manda um multiplicador válido entre 1.1x e 99.9x, pô.
-        Menos que isso ou mais que isso eu não tanko {sob}.
+        Menos que isso ou mais que isso eu não tanko. {sob}
 
     change_factor:
       title: 'Alterar multiplicador'

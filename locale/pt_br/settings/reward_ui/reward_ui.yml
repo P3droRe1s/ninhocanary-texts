@@ -1,7 +1,3 @@
-confirm_reward_delete:
-  embed:
-    rewards_amount: 'Quantidade de recompensas: {amount}.'
-
 manage_rewards_options:
   buttons:
     disable_rewards:
@@ -20,36 +16,44 @@ manage_rewards_options:
       reward_defined: 'Cara, esse cargo já é uma recompensa kkkkk'
 
     add_role:
-      title: 'Adicionar Recompensa'
+      title: 'Adicionar recompensa'
       label: 'Nova recompensa'    
 
   embed:
-    title: 'Editar Cargos de Recompensa'
-    description: >
+    title: 'Editar Recompensas'
+    description: >-
       Aqui você poderá escolher um cargo de recompensa já criado para visualizar,
       editar suas configurações ou excluir, caso queira. Logo abaixo, há um menu
       com todas as recompensas criadas neste servidor. Basta clicar nele e
       selecionar a recompensa desejada.
 
+
       {support_text}
-    reward_status: 'Recompensas: {status}.'
-    stacking_status: 'Empilhar recompensas: {status}.'
+    reward_status: '{text} {status}.'
+    stacking_status: '{text} {status}.'
 
   embed_role:
-    description: >
-      Aqui você pode ajustar como este cargo de recompensa será desbloqueado
-      e quanto XP o membro precisa para ter ele.
+    description: >-
+      Aqui você pode ajustar como este cargo de recompensa será conquistado
+      e quanto XP o membro precisa para conseguir ele.
 
-      Cargo: {role_formatted}.
-      Tipo de XP: {xp_type}.
-      XP necessário: {xp}.
+
+      - {role_text}
+
+      - {xp_type_text}
+
+      - {xp_required_text}
+
 
       {support_text}
+    role_text: '{text_role} {role_formatted}.'
+    xp_type_text: '{text} {xp_type}.'
+    xp_required_text: '{text} {xp}.'
 
   xp_type_list:
-    - total
-    - textual
-    - vocal
+    - XP total
+    - XP por texto
+    - XP em call
 
   note: >
     {obs} Algumas configurações aqui podem não funcionar direito,
@@ -58,7 +62,7 @@ manage_rewards_options:
 manage_role_reward_options:
   buttons:
     edit_unlock:
-      label: 'Alterar tipo de XP'
+      label: 'Alterar forma de conquista'
 
     edit_xp:
       label: 'Alterar XP necessário'
@@ -66,6 +70,16 @@ manage_role_reward_options:
     delete_reward:
       label: 'Deletar recompensa'
 
-    messages:
-      delete_message: >
-        Tem certeza que quer deletar a recompensa "{role_mention}"?
+  modals:
+    errors:
+      invalid_xp: >
+        Mano, me ajuda aí... só aceito número inteiro de 1 até 1.000.000.000.000 :p
+
+    replace_xp:
+      title:  'Alterar XP necessário'
+      label: 'Novo valor de XP'
+      placeholder: 'Digite um valor entre 1 e 1.000.000.000.000'
+
+  messages:
+    delete_message: >
+      Tem certeza que quer deletar a recompensa "{role_mention}"?

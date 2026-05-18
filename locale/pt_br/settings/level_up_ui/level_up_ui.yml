@@ -2,33 +2,43 @@ level_notification_options:
   buttons:
     disable_notifications:
       label: 'Desativar notificações'
-    enbale_notifications:
+    enable_notifications:
       label: 'Ativar notificações'
 
     disable_level_up_notification:
-      label: 'Desativar notificação de level up'
+      label: 'Desativar notificações de level up'
     enable_level_up_notification:
-      label: 'Ativar notificação de level up'
+      label: 'Ativar notificações de level up'
 
     edit_level_up_message:
-      label: 'Editar mensgem de level up'
+      label: 'Editar mensagem de level up'
 
   embed:
     title: 'Editar Mensagem de Level Up'
-    description: >
+    description: >-
       Aqui você pode deixar a mensagem de level up do jeitinho que quiser:
       escolher onde ela vai ser enviada, definir de quantos em quantos níveis
       ela aparece e testar tudo para ver como fica.
-    notification_status: 'Módulo de notificação: {status}.'
-    level_up_status: 'Notificação de level up: {status}.'
-    channel_status: 'Em qual canal a mensagem será enviada: {channel}.'
-    interval: 'A cada quantos níveis a mensagem será enviada: {interval}.'
-    dm_notify: 'Notificar via DM: {status}.'
+
+
+      - {channel_text}
+
+      - {interval_text}
+
+      - {dm_text}
+
+
+      {support_text}
+    notification_status: '**Módulo de notificações:** {status}.'
+    level_up_status: '**Notificações de level up:** {status}.'
+    channel_status: '**Em qual canal a mensagem será enviada:** {channel}.'
+    interval: '**A cada quantos níveis a mensagem será enviada:** {interval}.'
+    dm_notify: '**Notificar via DM:** {status}.'
 
   channel_none: 'sem canal'
 
   note: >
-    {obs} Algumas configurações aqui podem não funcionar direito,
+    **OBS:** Algumas configurações aqui podem não funcionar direito,
     porque a notificação de level up está desativada. {warning}
 
 edit_level_messages_options:
@@ -74,8 +84,8 @@ edit_level_messages_options:
       - {user_tag_str}: mostra o nome global do usuário.
       - {user_level_str}: mostra o nível atual do usuário.
       - {user_xp_total_str}: mostra o XP total do usuário.
-      - {user_xp_textual_str}: mostra o XP textual do usuário.
-      - {user_xp_vocal_str}: mostra o XP vocal do usuário.
+      - {user_xp_textual_str}: mostra o XP por texto do usuário.
+      - {user_xp_vocal_str}: mostra o XP em call do usuário.
       - {user_next_level_str}: mostra o próximo nível do usuário.
       - {user_ranking_str}: mostra a posição do usuário no rank do servidor.
       - {user_next_level_required_xp}: mostra quanto XP falta pro próximo nível.
@@ -103,11 +113,22 @@ edit_notification_level_up_message_options:
       label: 'Novo canal'
       placeholder: 'Digite o ID do canal ou deixe em branco para remover o atual'
 
+    change_interval:
+      errors:
+        invalid_interval: >
+          Meu fi, esse intervalo aí tá inválido! Digite outro aí que seja um número inteiro
+          e esteja entre 1 e 99. :)
+
+      title: 'Trocar intervalo'
+      label: 'Novo valor do intervalo'
+      placeholder: 'Digite o intervalo desejado'
+
   embed:
     title: 'Gerenciar Mensagem'
-    description: >
+    description: >-
       Aqui você pode editar a mensagem de level up que os membros do servidor
       recebem quando sobem de nível, ver qual mensagem está configurada agora
       e testar como ela será enviada e exibida para os membros.
+
 
       {support_text}

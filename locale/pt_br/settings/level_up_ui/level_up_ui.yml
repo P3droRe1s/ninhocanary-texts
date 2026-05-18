@@ -43,7 +43,7 @@ level_notification_options:
 
 edit_level_messages_options:
   buttons:
-    test_message:
+    button_test_message:
       label: 'Ei! Isto é uma mensagem de teste'
 
     test_dm_message:
@@ -109,7 +109,7 @@ edit_notification_level_up_message_options:
 
   modals:
     change_channel:
-      title: 'Alterar canal'
+      title: 'Trocar canal'
       label: 'Novo canal'
       placeholder: 'Digite o ID do canal ou deixe em branco para remover o atual'
 
@@ -122,6 +122,11 @@ edit_notification_level_up_message_options:
       title: 'Trocar intervalo'
       label: 'Novo valor do intervalo'
       placeholder: 'Digite o intervalo desejado'
+
+    edit_message:
+      title: 'Editar mensagem'
+      label: 'Nova mensagem'
+      placeholder: 'Digite a nova mensagem. Use {} para inserir variáveis.'
 
   embed:
     title: 'Gerenciar Mensagem'

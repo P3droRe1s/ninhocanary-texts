@@ -1,22 +1,26 @@
-confirm_reward_delete:
-  embed:
-    rewards_amount: 'Number of rewards: {amount}.'
-
 manage_rewards_options:
   buttons:
     disable_rewards:
-      label: 'Disable rewards'
+      label: "Disable rewards"
     enable_rewards:
-      label: 'Enable rewards'
+      label: "Enable rewards"
 
     add_reward:
-      label: 'Add reward'
-    
+      label: "Add reward"
+
     edit_reward:
-      label: 'Edit Reward'
+      label: "Edit Reward"
+
+  modals:
+    errors:
+      reward_defined: "Man, this role is already a reward lol"
+
+    add_role:
+      title: "Add reward"
+      label: "New reward"
 
   embed:
-    title: 'Edit Reward Roles'
+    title: "Edit Reward Roles"
     description: >
       Here you can select an existing reward role to view,
       edit its settings, or delete it if you want. Below, there`s a menu 
@@ -24,22 +28,57 @@ manage_rewards_options:
       choose the one you want.
 
       {support_text}
-    reward_status: 'Rewards: {status}.'
-    stacking_status: 'Stacking rewards: {status}.'
+    reward_status: "{text} {status}."
+    stacking_status: "{text} {status}."
+
+  embed_role:
+    description: >-
+      Here you can adjust how this reward role is unlocked
+      and how much XP a member needs to obtain it.
+
+
+      - {role_text}
+
+      - {xp_type_text}
+
+      - {xp_required_text}
+
+
+      {support_text}
+    role_text: "{text_role} {role_formatted}."
+    xp_type_text: "{text} {xp_type}."
+    xp_required_text: "{text} {xp}."
+
+  xp_type_list:
+    - Total XP
+    - Text XP
+    - Call XP
 
   note: >
-    {obs} Some settings here may not work properly because reward roles are disabled. {warning}
+    {obs} Some settings here may not work properly 
+    because reward roles are disabled. {warning}
 
 manage_role_reward_options:
   buttons:
     edit_unlock:
-      label: 'Change XP type'
+      label: "Change XP type"
 
     edit_xp:
-      label: 'Change required XP'
+      label: "Change required XP"
 
     delete_reward:
-      label: 'Delete reward'
+      label: "Delete reward"
+
+  modals:
+    errors:
+      invalid_xp: >
+        Man, help me out here... I only accept whole numbers
+        between 1 and 1,000,000,000,000 :p
+
+    replace_xp:
+      title: "Change required XP"
+      label: "New XP value"
+      placeholder: "Enter a value between 1 and 1.000.000.000.000"
 
     messages:
       delete_message: >

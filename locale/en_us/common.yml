@@ -16,11 +16,23 @@ common:
     user_not_found: >
       Dude, I couldn`t find that user in this server.
       Are you sure you typed the username correctly? {sob}
+      
+    invalid_role_id: >
+      Lil bro, type the ID properly, this one doesn`t represent a valid role. {skull}
+    invalid_position: >
+      Bro, this role is higher than mine in the hierarchy, not cool.
+      Move my role above it so I can reward members {thumbsup}.
+    invalid_channel: >
+      Oops, that ID doesn`t seem to belong to a valid channel {skull}
+      Double-check it and try again.
 
   support: "[Support server]({support_guild})"
 
   buttons:
     open_panel: "Take me to the pannel"
+
+  menus:
+    select_option: 'Select an option...'
 
   success:
     dm_sent: "Sent it to your DMs! ;)"
@@ -28,3 +40,6 @@ common:
   status:
     active: "Enabled"
     disabled: "Disabled"
+
+    yes: 'Yes'
+    no: 'No'

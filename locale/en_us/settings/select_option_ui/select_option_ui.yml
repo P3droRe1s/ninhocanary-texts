@@ -1,0 +1,8 @@
+select_option:
+  manage_multiplier_options:
+    embed:
+      mul_size: '{text} {size} de {max}.'
+
+  manage_rewards_options:
+    embed:
+      reward_size: '{text} {size} de {max}.'

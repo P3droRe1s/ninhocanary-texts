@@ -1,0 +1,27 @@
+manage_weekend_options:
+  buttons:
+    disable_weekend_boost:
+      label: 'Disable weekend boost'
+    enable_weekend_boost:
+      label: 'Enable weekend boost'
+
+    disable_friday_boost:
+      label: 'Disable Friday boost'
+    enable_friday_boost:
+      label: 'Enable Friday boost'
+
+    chance_xp_boost:
+      label: 'Change XP boost'
+
+  modals:
+    title: 'Change XP boost'
+    label: 'New XP boost value'
+
+  embed:
+    weekend_status: '**Weekend boost:** {status}.'
+    friday_status: '**Friday boost:** {status}.'
+    xp_multiplier: '**XP boost:** {multiplier}x.'
+
+  note: >
+    **NOTE:** Some settings here may not work properly because
+    the weekend boost is disabled. {warning}

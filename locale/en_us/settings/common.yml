@@ -1,0 +1,17 @@
+common:
+  buttons:
+    confirm:
+      label: 'Of course!'
+    cancel:
+      label: 'I`m not sure yet...'
+
+    disable_stacking:
+      label: 'Disable stacking'
+    enable_stacking:
+      label: 'Enable stacking'
+
+  modals:
+    placeholder: 'Enter the role ID'
+
+  embed:
+    title: 'Edit "{role_name}"'

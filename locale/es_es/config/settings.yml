@@ -1,0 +1,3 @@
+settings:
+  support:
+    message: '¿Necesitas ayuda? [Contáctanos!]({support_guild})'

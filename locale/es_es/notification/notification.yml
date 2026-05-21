@@ -1,0 +1,5 @@
+notification:
+  success:
+    toggled_message: >
+      ¡Bien ahí! Los mensajes de subida de nivel en tu DM han sido
+      {status} con éxito.

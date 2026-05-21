@@ -1,0 +1,10 @@
+setup:
+  embed:
+    title: 'Configuración'
+    global_xp_warning: >
+      Ten en cuenta que estas configuraciones no afectarán la ganancia de XP global.
+    description: >
+      Aquí puedes configurar mi comportamiento para adaptarlo a las
+      necesidades de tu servidor. Justo debajo podrás elegir una opción
+      para ver más detalles o ajustarlo a tu gusto. Si tienes dudas
+      o encuentras algún problema, no dudes en contactar con el servidor de soporte.

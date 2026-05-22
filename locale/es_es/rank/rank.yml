@@ -1,0 +1,5 @@
+errors:
+  server_rank_guild_only: >
+    Oye, el ranking del servidor solo funciona dentro de servidores {sob}.
+    Pero, si quieres ver los rankings globales, usa {rank_global_command}
+    o {rank_servers_command}.

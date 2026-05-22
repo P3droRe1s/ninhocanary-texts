@@ -1,0 +1,27 @@
+manage_weekend_options:
+  buttons:
+    disable_weekend_boost:
+      label: 'Desactivar bonus de fin de semana'
+    enable_weekend_boost:
+      label: 'Activar bonus de fin de semana'
+
+    disable_friday_boost:
+      label: 'Desactivar bonus del viernes'
+    enable_friday_boost:
+      label: 'Activar bonus del viernes'
+
+    chance_xp_boost:
+      label: 'Cambiar bonus de XP'
+
+  modals:
+    title: 'Cambiar bonus de XP'
+    label: 'Nuevo valor del bonus de XP'
+
+  embed:
+    weekend_status: '**Bonus de fin de semana:** {status}.'
+    friday_status: '**Bonus del viernes:** {status}.'
+    xp_multiplier: '**Bonus de XP:** {multiplier}x.'
+
+  note: >
+    **Nota:** Algunas configuraciones aquí pueden no funcionar correctamente,
+    porque el bonus de fin de semana está desactivado. {warning}

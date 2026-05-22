@@ -1,0 +1,12 @@
+errors:
+  edit_app_xp: >
+    Lil bro, los bots ni siquiera ganan XP, imagina intentar cambiarlo {sob}{pray}.
+  no_args_edit_xp: >
+    Oyeee, te faltó pasarme toda la información. Necesito
+    {literal_member}, {literal_type} y {literal_xp} para poder hacer eso.
+  unknown_xp_type: >
+    Oye, no tengo ni idea de qué es {type_} {sob}. Usa {literal_textual} o
+    {literal_vocal} como tipo de XP.
+  ausent_options: >
+    Bro, dejaste algunas opciones en blanco {sob}. Te faltó completar {options}.
+    Rellena todo bien y vuelve a intentarlo. ;)

@@ -1,0 +1,33 @@
+topgg:
+  embed:
+    title: 'Valeu pelo voto!'
+    description: >-
+      Oii, {user_mention}! Muito obrigado por votar em mim
+      no TOP.GG, cada voto me ajuda a crescer cada vez mais.
+
+
+      Agora você tem {votes}. Como recompensa, você recebeu
+      um {boost_msg}.
+
+
+      Esse boost vai acabar <t:{timestamp}:R>. Se quiser
+      manter o bônus ativo, é só votar novamente quando puder.
+
+
+      E novamente, muito obrigado pelo apoio.
+    one_vote: '**{votes} voto no total**'
+    many_votes: '**{votes} votos no total**'
+    boost: '**boost de +10% no ganho de XP**'
+
+  embed_reminder:
+    title: 'Vote em Mim Novamente no TOP.GG!'
+    description: >-
+      Aoba, {user_mention}! Tudo bem? Estou passando aqui
+      pra te lembrar que já se passaram 12 horas desde
+      o seu último voto em mim no TOP.GG!
+
+
+      Seu boost de **+10% no ganho de XP** acabou
+      por agora, mas não se preocupe. Você já pode votar
+      novamente. Além de me ajudar muito, você ainda
+      receberá seu boost de novo! Legal, né?

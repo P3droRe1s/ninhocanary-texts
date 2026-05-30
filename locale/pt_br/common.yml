@@ -25,6 +25,12 @@ common:
     invalid_channel: >
       Oops, esse ID aí não parece ser de um canal válido {skull}.
       Confere ele direito e tenta de novo.
+    forbidden_guild: >
+      Mano, tô sem permissão pra fazer isso. Pede pra um admin ajustar
+      minhas permissões ou chama a gente no {support_guild_hyperlink}. ;)
+    forbidden_member: >
+      Não consegui te mandar o painel na DM. Abre suas mensagens diretas
+      e tenta de novo, ou usa o comando </configurar:1495734762726363300>.
 
   support: '[servidor de suporte]({support_guild})'
 

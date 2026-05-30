@@ -1,0 +1,84 @@
+xp:
+  errors:
+    server_xp_guild_only: >
+      Ei, mano, esse comando só funciona dentro de servidores {sob}.
+      Mas, se quiser ver o seu XP global, usa `{xp_global_command}`.
+
+  buttons:
+    vote:
+      label: 'Vote para ganhar +10% de XP'
+    voted:
+      label: 'Seu boost acabará em {formatted}'
+
+  embed:
+    description: >-
+      ### {title} {eyes}
+
+
+      {start}
+
+
+      {dart} **Nível Atual:** {current_level}.
+
+      {trophy} **Ranking:** {rank}.
+
+
+      {star} **XP Total:** {total_xp}.
+
+      {scroll} **XP por Texto:** {text_xp}.
+
+      {microphone} **XP em Call:** {voice_xp}.
+
+
+      {hourglass} **Próximo Nível:** {next_level}.
+
+      {message_reward}{target_user_msg}
+
+  embed_global_xp:
+    title: 'Visualizar XP Global {EYES}'
+    start: |
+      Aqui você pode visualizar informações essenciais
+      sobre o seu progresso ou o de outro usuário no ranking global
+      de usuários.
+
+  embed_server_xp:
+    title: 'Visualizar XP do Servidor {EYES}'
+    start: |
+      Aqui você pode visualizar informações essenciais
+      sobre o progresso do servidor no ranking global de servidores.
+
+  embed_user_xp:
+    title: 'Visualizar XP {EYES}'
+    start: |
+      Aqui você pode visualizar informações essenciais sobre o seu
+      progresso ou o de outro membro dentro deste servidor.
+
+  friday_true: >-
+
+    {oi_rsrsrs} OBS: Multiplicador de {weekend_multiplier}x
+    está ativado durante o fim de semana (sexta-feira incluída, rs)!
+
+  weekend_true: >-
+
+    {oi_rsrsrs} OBS: Multiplicador de {weekend_multiplier}x
+    está ativado durante o fim de semana!'
+
+  ranking_none: 'Sem ranking'
+  next_reward: '{present} **Próxima Recompensa:** {reward_mention}'
+
+  duration:
+    hours: '{hours} hora(s)'
+    minutes: '{minutes} minuto(s)'
+
+  field: '{compass} **Objetivo:**'
+
+  target_user:
+    overtake: >
+
+      {field} Ganhe +{xp_required} XP para ultrapassar {name}
+      e alcançar o #{rank} lugar!
+
+    keep_first_place: >
+
+      {field} Continue ganhando XP para manter o #1 lugar
+      e não deixar {name} te ultrapassar!

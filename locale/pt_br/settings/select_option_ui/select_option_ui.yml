@@ -6,3 +6,78 @@ select_option:
   manage_rewards_options:
     embed:
       reward_size: '{text} {size} de {max}.'
+
+  menus:
+    options:
+      label:
+        xp_multiplier: 'Multiplicadores de XP'
+        weekend: 'Bônus de fim de semana'
+        rewards: 'Cargos de recompensa'
+        notification: 'Notificação de progresso'
+
+  embed:
+    multiplier:
+      title: 'Multiplicadores de XP'
+      description:
+        Configure os multiplicadores de XP do servidor por aqui.
+        Defina quais cargos vão aumentar o XP dos membros, ajuste o valor
+        do bônus e escolha se os multiplicadores vão se acumular.
+
+
+        - **Multiplicadores de XP:** {multiplier_status}.
+
+        - **Empilhar multiplicadores:** {stacking_status}.
+
+        - **Quantidade de multiplicadores:** {quantity}.
+
+
+        {support_text}
+
+    weekend:
+      title: 'Bônus de Fim de Semana'
+      description:
+        Aqui você configura o bônus de fim de semana do servidor. Com ele, os membros ganham
+        mais XP aos sábados e domingos, e também na sexta-feira, se você quiser. Você também pode
+        alterar o multiplicador de XP, que será usado para dar o bônus extra no fim de semana.
+
+
+        - **Bônus de fim de semana:** {weekend_status}.
+
+        - **Bônus na sexta-feira:** {friday_status}.
+
+        - **Multiplicador de XP** {xp_multiplier}.
+
+
+        {support_text}
+
+    rewards:
+      title: 'Cargos de Recompensa'
+      description:
+        Aqui você configura as recompensas automáticas do servidor.
+        Quando ativadas, o Ninho entrega cargos aos membros conforme
+        eles alcançam os níveis definidos.
+
+
+        - **Recompensas:** {rewards_status}.
+
+        - **Empilhar recompensas:** {stacking_status}.
+
+        - **Quantidade de recompensas:** {quantity}.
+
+
+        {support_text}
+
+    notification:
+      title: 'Notificação de Progresso'
+      description:
+        Aqui você configura as notificações de nível do servidor.
+        Quando ativadas, o Ninho envia uma mensagem sempre que um membro
+        sobe de nível.
+
+
+        - **Notificações:** {notification_status}.
+
+        - **Notificações de level up:** {level_up_notification_status}.
+
+
+        {support_text}

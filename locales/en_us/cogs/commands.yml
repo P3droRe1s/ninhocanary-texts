@@ -1,0 +1,17 @@
+vote:
+  buttons:
+    label: 'Vote by clicking here!'
+
+  embed:
+    title: 'Vote for Me on TOP.GG'
+    description: >-
+      Hey, {user_mention}! Would you like to help me grow and become an even 
+      better bot?!
+
+
+      Every vote helps me become more popular on Discord and allows more 
+      people to discover me! This helps me receive more improvements and 
+      features that will benefit you directly.
+
+
+      And as a reward for your support, I`ll give you a **+10% XP gain boost**. :D

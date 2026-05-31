@@ -16,7 +16,6 @@ common:
     user_not_found: >
       Dude, I couldn`t find that user in this server.
       Are you sure you typed the username correctly? {sob}
-      
     invalid_role_id: >
       Lil bro, type the ID properly, this one doesn`t represent a valid role. {skull}
     invalid_position: >
@@ -25,6 +24,12 @@ common:
     invalid_channel: >
       Oops, that ID doesn`t seem to belong to a valid channel {skull}
       Double-check it and try again.
+    forbidden_guild: >
+      Man, I don`t have permission to do that. Ask an admin to adjust
+      my permissions or reach out to us at {support_guild_hyperlink}. ;)
+    forbidden_member: >
+      I couldn`t send the panel to your DMs. Open your direct messages
+      and try again, or use the </configurar:1495734762726363300> command.
 
   support: "[Support server]({support_guild})"
 

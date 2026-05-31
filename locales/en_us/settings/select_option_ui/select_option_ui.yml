@@ -1,8 +1,82 @@
 select_option:
   manage_multiplier_options:
     embed:
-      mul_size: '{text} {size} de {max}.'
+      mul_size: '{text} {size} of {max}.'
 
   manage_rewards_options:
     embed:
-      reward_size: '{text} {size} de {max}.'
+      reward_size: '{text} {size} of {max}.'
+
+  menus:
+    options:
+      label:
+        xp_multiplier: 'XP Multipliers'
+        weekend: 'Weekend Boost'
+        rewards: 'Reward Roles'
+        notification: 'Progress Notifications'
+
+  embed:
+    multiplier:
+      title: 'XP Multipliers'
+      description:
+        Confiugre the server`s XP multipliers here.
+        Choose which roles will increase members` XP, adjust the bonus amount,
+        and decide whether multipliers should stack.
+
+
+        - **XP Multipliers:** {multiplier_status}.
+
+        - **Stacking Multipliers:** {stacking_status}.
+
+        - **Number of Multipliers:** {quantity}.
+
+
+        {support_text}
+
+    weekend:
+      title: 'Weekend Boost'
+      description:
+        Here you can configure the server`s weekend boost. When enabled,
+        members earn extra XP on Saturdays and Sundays, and on Fridays too
+        if you`d like. You can also adjust the XP multiplier used for the weekend bonus.
+
+
+        - **Weekend Boost:** {weekend_status}.
+
+        - **Friday Boost:** {friday_status}.
+
+        - **XP Multiplier:** {xp_multiplier}.
+
+
+        {support_text}
+
+    rewards:
+      title: 'Reward Roles'
+      description:
+        Configure the server`s automatic rewards here.
+        When enabled, Ninho will grant roles to members as they
+        reach the configured levels.
+
+
+        - **Rewards:** {rewards_status}.
+
+        - **Stacking Rewards:** {stacking_status}.
+
+        - **Number of Rewards:** {quantity}.
+
+
+        {support_text}
+
+    notification:
+      title: 'Progress Notifications'
+      description:
+        Configure the server`s level notifications here.
+        When enabled, Ninho will send a message whenever a member levels up.
+
+
+        - **Notifications:** {notification_status}.
+
+        - **Level-Up Notifications:** {level_up_notification_status}.
+
+
+        {support_text}

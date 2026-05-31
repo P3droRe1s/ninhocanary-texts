@@ -1,0 +1,2 @@
+xp_system:
+  message_source: 'Message sent from the server "{guild_name}"'

@@ -1,0 +1,86 @@
+xp:
+  errors:
+    server_xp_guild_only: >
+      Hey man, this command only works inside servers {sob}.
+      If you want to see your global XP, use `{xp_global_command}`.
+
+  buttons:
+    vote:
+      label: 'Vote to earn +10% XP'
+    voted:
+      label: 'Your boost expires in {formatted}'
+
+  embed:
+    description: >-
+      ### {title} {eyes}
+
+
+      {start}
+
+
+      {dart} **Current Level:** {current_level}.
+
+      {trophy} **Rank:** {rank}.
+
+
+      {star} **Total XP:** {total_xp}.
+
+      {scroll} **Text XP:** {text_xp}.
+
+      {microphone} **Voice XP:** {voice_xp}.
+
+
+      {hourglass} **Next Level:** {next_level}.
+
+      {message_reward}{target_user_msg}
+
+  embed_global_xp:
+    title: 'View Global XP {EYES}'
+    start: |
+      Here you can view essential information
+      about your progress or another user`s progress
+      in the global user rankings.
+
+  embed_server_xp:
+    title: 'View Server XP {EYES}'
+    start: |
+      Here you can view essential information
+      about the server`s progress in the global
+      server rankings.
+
+  embed_user_xp:
+    title: 'View XP {EYES}'
+    start: |
+      Here you can view essential information about 
+      your progress or another member`s progress
+      whitin this server.
+
+  friday_true: >-
+
+    {oi_rsrsrs} NOTE: A {weekend_multiplier}x multiplier
+    is active during the weekend (Friday included hehe)!
+
+  weekend_true: >-
+
+    {oi_rsrsrs} NOTE: A {weekend_multiplier}x multiplier
+    is active during the weekend!'
+
+  ranking_none: 'Unranked'
+  next_reward: '{present} **Next Reward:** {reward_mention}'
+
+  duration:
+    hours: '{hours} hour(s)'
+    minutes: '{minutes} minute(s)'
+
+  field: '{compass} **Goal:**'
+
+  target_user:
+    overtake: >
+
+      {field} Earn +{xp_required} XP to overtake {name}
+      and reach #{rank}!
+
+    keep_first_place: >
+
+      {field} Keep earning XP to hold the #1 spot
+      and stop {name} from overtaking you!

@@ -13,7 +13,7 @@ manage_rewards_options:
 
   modals:
     errors:
-      reward_defined: "Man, this role is already a reward lol"
+      reward_defined: "Man, this role is already a reward lol."
 
     add_role:
       title: "Add reward"
@@ -21,15 +21,16 @@ manage_rewards_options:
 
   embed:
     title: "Edit Reward Roles"
-    description: >
+    description: >-
       Here you can select an existing reward role to view,
-      edit its settings, or delete it if you want. Below, there`s a menu 
+      edit its settings, or delete it if you want. Below, there's a menu 
       with all the rewards created in this server. Just click it and
       choose the one you want.
 
+
       {support_text}
-    reward_status: "{text} {status}."
-    stacking_status: "{text} {status}."
+    reward_status: "**Rewards:** {status}."
+    stacking_status: "**Stacking Rewards:** {status}."
 
   embed_role:
     description: >-
@@ -45,17 +46,19 @@ manage_rewards_options:
 
 
       {support_text}
-    role_text: "{text_role} {role_formatted}."
-    xp_type_text: "{text} {xp_type}."
-    xp_required_text: "{text} {xp}."
+    role_text: "**Role:** {role_formatted}."
+    xp_type_text: "**XP Type:** {xp_type}."
+    xp_required_text: "**XP Required:** {xp}."
 
   xp_type_list:
     - Total XP
     - Text XP
     - Call XP
 
-  note: >
-    {obs} Some settings here may not work properly 
+  note: >-
+
+
+    **NOTE:** Some settings here may not work properly 
     because reward roles are disabled. {warning}
 
 manage_role_reward_options:
@@ -78,8 +81,8 @@ manage_role_reward_options:
     replace_xp:
       title: "Change required XP"
       label: "New XP value"
-      placeholder: "Enter a value between 1 and 1.000.000.000.000"
+      placeholder: "Enter a value between 1 and 1,000,000,000,000"
 
-    messages:
-      delete_message: >
-        Are you sure you want to delete the "{role_mention}" reward?
+  messages:
+    delete_message: >
+      Are you sure you want to delete the "{role_mention}" reward?

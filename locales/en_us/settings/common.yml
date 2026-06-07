@@ -3,7 +3,7 @@ common:
     confirm:
       label: 'Of course!'
     cancel:
-      label: 'I`m not sure yet...'
+      label: 'I''m not sure yet...'
 
     disable_stacking:
       label: 'Disable stacking'

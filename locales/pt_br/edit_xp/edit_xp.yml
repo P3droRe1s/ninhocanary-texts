@@ -1,12 +1,30 @@
-errors:
-  edit_app_xp: >
-    Lil bro, bots nem ganham XP, imagina ter o XP alterado {sob}{pray}.
-  no_args_edit_xp: >
-    Manoooo, tu esqueceu de me passar as informações completas! Eu preciso de
-    {literal_member}, {literal_type} e {literal_xp} para conseguir fazer isso.
-  unknown_xp_type: >
-    Cara, eu não faço ideia do que é {type_} {sob}. Usa {literal_textual} ou
-    {literal_vocal} como tipo de XP.
-  ausent_options: >
-    Bro, tu deixou umas opções em branco aí {sob}. Faltou preencher {options}.
-    Preenche tudo certinho e tenta de novo. ;)
+edit_xp:
+  errors:
+    no_args: >
+      Manoooo, você não me falou nenhuma das opções
+      `membro`, `tipo` e `xp`! {sob}
+    unknown_user: 'Desculpe, mas não encontrei este usuário aqui no servidor...'
+    invalid_xp_type: >
+      Cara, não conheço o tipo `{type}`! Forneça-me um tipo
+      `texto` ou `call`, por favor.
+    missing_options: >
+      Mano, você deixou algumas opções em branco.
+      Faltou falar {options}. Preencha tudo certinho e tente
+      novamente. ;)
+    guild_only: >
+      Manooo, esse comando só pode ser usado dentro de servidores!
+    forbidden: >
+      Ei! Apenas o dono do servidor e os administradores
+      podem usar este comando.
+    edit_app_xp: >
+      Lil bro, bots nem ganham XP, imagina tentar editar isso. {sob}{pray}
+
+  success:
+    xp_edited: >
+      Ó coisa boa, rapá! O XP do tipo `{xp_type}` de {member} foi alterado
+      de {old} para {new} com sucesso!
+
+  options:
+    - membro
+    - tipo
+    - xp

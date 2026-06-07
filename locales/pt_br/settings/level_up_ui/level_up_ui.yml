@@ -29,15 +29,17 @@ level_notification_options:
 
 
       {support_text}
-    notification_status: '**Módulo de notificações:** {status}.'
-    level_up_status: '**Notificações de level up:** {status}.'
+    notification_status: '**Notificações:** {status}.'
+    level_up_status: '**Notificações de Level Up:** {status}.'
     channel_status: '**Em qual canal a mensagem será enviada:** {channel}.'
     interval: '**A cada quantos níveis a mensagem será enviada:** {interval}.'
     dm_notify: '**Notificar via DM:** {status}.'
 
   channel_none: 'sem canal'
 
-  note: >
+  note: >-
+
+
     **OBS:** Algumas configurações aqui podem não funcionar direito,
     porque a notificação de level up está desativada. {warning}
 

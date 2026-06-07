@@ -1,0 +1,18 @@
+aliases:
+  vote:
+    - votar
+
+  rank_servers:
+    - servidores
+
+  xp_server:
+    - servidor
+
+  notify:
+    - notificar
+
+  config:
+    - configurar
+
+  edit_xp:
+    - editar

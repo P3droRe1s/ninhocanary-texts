@@ -1,11 +1,11 @@
 select_option:
   manage_multiplier_options:
     embed:
-      mul_size: '{text} {size} of {max}.'
+      mul_size: '**Number of Multipliers:** {quantity} of {max}.'
 
   manage_rewards_options:
     embed:
-      reward_size: '{text} {size} of {max}.'
+      reward_size: '**Number of Rewards:** {quantity} of {max}.'
 
   menus:
     options:
@@ -19,8 +19,8 @@ select_option:
     multiplier:
       title: 'XP Multipliers'
       description:
-        Confiugre the server`s XP multipliers here.
-        Choose which roles will increase members` XP, adjust the bonus amount,
+        Configure the server's XP multipliers here.
+        Choose which roles will increase members' XP, adjust the bonus amount,
         and decide whether multipliers should stack.
 
 
@@ -28,7 +28,7 @@ select_option:
 
         - **Stacking Multipliers:** {stacking_status}.
 
-        - **Number of Multipliers:** {quantity}.
+        - **Number of Multipliers:** {quantity} of {max}.
 
 
         {support_text}
@@ -36,9 +36,9 @@ select_option:
     weekend:
       title: 'Weekend Boost'
       description:
-        Here you can configure the server`s weekend boost. When enabled,
+        Here you can configure the server's weekend boost. When enabled,
         members earn extra XP on Saturdays and Sundays, and on Fridays too
-        if you`d like. You can also adjust the XP multiplier used for the weekend bonus.
+        if you'd like. You can also adjust the XP multiplier used for the weekend bonus.
 
 
         - **Weekend Boost:** {weekend_status}.
@@ -53,7 +53,7 @@ select_option:
     rewards:
       title: 'Reward Roles'
       description:
-        Configure the server`s automatic rewards here.
+        Configure the server's automatic rewards here.
         When enabled, Ninho will grant roles to members as they
         reach the configured levels.
 
@@ -62,7 +62,7 @@ select_option:
 
         - **Stacking Rewards:** {stacking_status}.
 
-        - **Number of Rewards:** {quantity}.
+        - **Number of Rewards:** {quantity} of {max}.
 
 
         {support_text}
@@ -70,7 +70,7 @@ select_option:
     notification:
       title: 'Progress Notifications'
       description:
-        Configure the server`s level notifications here.
+        Configure the server's level notifications here.
         When enabled, Ninho will send a message whenever a member levels up.
 
 

@@ -1,16 +1,18 @@
 vote:
-  boost_message: "+10% boost on XP gain"
+  boost_message: "**+10% boost on XP gain**"
 
   button:
     label: "I want to vote now!"
 
   embed:
-    title: "Give me a vote on TOP.GG"
-    description: >
+    title: "Support me with a vote on TOP.GG"
+    description: >-
       Wassup, {user_mention}! Want to support me and help me grow? 
       If your answer is yes, vote me on TOP.GG!
+
 
       Every vote helps me become more popular on Discord and lets more people discover me.
       That way, I can keep improving and bring new features that will benefit you directly
 
-      Ands as a reward for your support, I`ll give you a {boost_message} :D
+
+      Ands as a reward for your support, I'll give you a {boost_message}. :D

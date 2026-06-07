@@ -1,5 +1,27 @@
-errors:
-  server_rank_guild_only: >
-    Ei, mano, o rank do servidor só funciona dentro de servidores {sob}.
-    Mas, se quiser ver os rankings globais, usa {rank_global_command}
-    ou {rank_servers_command}.
+rank:
+  errors:
+    server_rank_guild_only: >
+      Ei, mano, o rank do servidor só funciona dentro de servidores {sob}.
+      Mas, se quiser ver os rankings globais, usa `.rank global`
+      ou `.rank servidores`.
+    no_users: 'Nenhum usuário encontrado no rank, por enquanto...'
+    invalid_page: 'Página inválida... Digite uma página entre 1 a {pages}.'
+    not_author: 'Espere, você não é o(a) {user}! Considere usar o comando {command}.'
+
+  page_info: 'Você está na página {page} de {pages}.'
+
+  user_not_in_rank: >
+    O usuário não está presente no rank.
+    Você está na página {page} de {pages}.
+
+  labels:
+    view_rank: 'Ver sua classificação'
+    no_guild_rank: 'Sem servidor para ver classificação'
+    guild_rank: 'Ver classificação de "{guild}"'
+
+  titles:
+    server_rank_top_200: 'Rank de Servidores - Top 200'
+    global_rank_top_200: 'Rank Global - Top 200'
+
+  cmds_name:
+    servers: 'servidores'

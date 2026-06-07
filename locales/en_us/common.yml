@@ -6,7 +6,7 @@ common:
       Only the server owner and admins can use this command.
     missing_manage_server: >
       Only the server owner, admins and users with the
-      "{manage_server_permission}" permission can use this command.
+      `Manage Server` permission can use this command.
     command_loading: >
       Man, this command is still loading. Try again in a few seconds, lol.
       If it keeps happening, reach out to us at {support_guild_hyperlink}.
@@ -14,24 +14,27 @@ common:
       Bro, something went really wrong here, lol. Please contact the team at
       {support_guild_hyperlink}.
     user_not_found: >
-      Dude, I couldn`t find that user in this server.
+      Dude, I couldn't find that user in this server.
       Are you sure you typed the username correctly? {sob}
     invalid_role_id: >
-      Lil bro, type the ID properly, this one doesn`t represent a valid role. {skull}
+      Lil bro, type the ID properly, this one doesn't represent a valid role. {skull}
     invalid_position: >
       Bro, this role is higher than mine in the hierarchy, not cool.
-      Move my role above it so I can reward members {thumbsup}.
+      Move my role above it so I can reward members. {thumbsup}
     invalid_channel: >
-      Oops, that ID doesn`t seem to belong to a valid channel {skull}
+      Oops, that ID doesn't seem to belong to a valid channel.
       Double-check it and try again.
+    forbidden_channel: >
+      Dude, I don't have permission to send messages in that channel.
+      How am I supposed to send level-up messages there? {sob}
     forbidden_guild: >
-      Man, I don`t have permission to do that. Ask an admin to adjust
+      Man, I don't have permission to do that. Ask an admin to adjust
       my permissions or reach out to us at {support_guild_hyperlink}. ;)
     forbidden_member: >
-      I couldn`t send the panel to your DMs. Open your direct messages
-      and try again, or use the </configurar:1495734762726363300> command.
+      I couldn't send the panel to your DMs. Open your direct messages
+      and try again.
 
-  support: "[Support server]({support_guild})"
+  support: "[support server]({support_guild})"
 
   buttons:
     open_panel: "Take me to the pannel"
@@ -43,8 +46,11 @@ common:
     dm_sent: "Sent it to your DMs! ;)"
 
   status:
-    active: "Enabled"
+    actived: "Enabled"
     disabled: "Disabled"
+
+    actived_plural: "Enabled"
+    disabled_plural: "Disabled"
 
     yes: 'Yes'
     no: 'No'

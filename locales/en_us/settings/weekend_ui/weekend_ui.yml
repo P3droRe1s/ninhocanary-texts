@@ -18,10 +18,12 @@ manage_weekend_options:
     label: 'New XP boost value'
 
   embed:
-    weekend_status: '**Weekend boost:** {status}.'
-    friday_status: '**Friday boost:** {status}.'
-    xp_multiplier: '**XP boost:** {multiplier}x.'
+    weekend_status: '**Weekend Boost:** {status}.'
+    friday_status: '**Friday Boost:** {status}.'
+    xp_multiplier: '**XP Multiplier:** {multiplier}x.'
 
-  note: >
+  note: >-
+
+
     **NOTE:** Some settings here may not work properly because
     the weekend boost is disabled. {warning}

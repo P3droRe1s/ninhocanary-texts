@@ -29,8 +29,8 @@ manage_rewards_options:
 
 
       {support_text}
-    reward_status: '{text} {status}.'
-    stacking_status: '{text} {status}.'
+    reward_status: '**Recompensas:** {status}.'
+    stacking_status: '**Empilhar Recompensas:** {status}.'
 
   embed_role:
     description: >-
@@ -46,17 +46,19 @@ manage_rewards_options:
 
 
       {support_text}
-    role_text: '{text_role} {role_formatted}.'
-    xp_type_text: '{text} {xp_type}.'
-    xp_required_text: '{text} {xp}.'
+    role_text: '**Cargo:** {role_formatted}.'
+    xp_type_text: '**Forma de Conquista:** {xp_type}.'
+    xp_required_text: '**XP Necessário:** {xp}.'
 
   xp_type_list:
     - XP total
     - XP por texto
     - XP em call
 
-  note: >
-    {obs} Algumas configurações aqui podem não funcionar direito,
+  note: >-
+
+
+    **OBS:** Algumas configurações aqui podem não funcionar direito,
     porque os cargos de recompensa estão desativados. {warning}
 
 manage_role_reward_options:

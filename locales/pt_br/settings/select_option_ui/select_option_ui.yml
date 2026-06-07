@@ -1,11 +1,11 @@
 select_option:
   manage_multiplier_options:
     embed:
-      mul_size: '{text} {size} de {max}.'
+      mul_size: '**Quantidade de Multiplicadores:** {quantity} de {max}.'
 
   manage_rewards_options:
     embed:
-      reward_size: '{text} {size} de {max}.'
+      reward_size: '**Quantidade de Recompensas:** {quantity} de {max}.'
 
   menus:
     options:
@@ -26,9 +26,9 @@ select_option:
 
         - **Multiplicadores de XP:** {multiplier_status}.
 
-        - **Empilhar multiplicadores:** {stacking_status}.
+        - **Empilhar Multiplicadores:** {stacking_status}.
 
-        - **Quantidade de multiplicadores:** {quantity}.
+        - **Quantidade de Multiplicadores:** {quantity} de {max}.
 
 
         {support_text}
@@ -41,11 +41,11 @@ select_option:
         alterar o multiplicador de XP, que será usado para dar o bônus extra no fim de semana.
 
 
-        - **Bônus de fim de semana:** {weekend_status}.
+        - **Bônus de Fim de Semana:** {weekend_status}.
 
-        - **Bônus na sexta-feira:** {friday_status}.
+        - **Bônus na Sexta-Feira:** {friday_status}.
 
-        - **Multiplicador de XP** {xp_multiplier}.
+        - **Multiplicador de XP:** {xp_multiplier}.
 
 
         {support_text}
@@ -60,9 +60,9 @@ select_option:
 
         - **Recompensas:** {rewards_status}.
 
-        - **Empilhar recompensas:** {stacking_status}.
+        - **Empilhar Recompensas:** {stacking_status}.
 
-        - **Quantidade de recompensas:** {quantity}.
+        - **Quantidade de Recompensas:** {quantity} de {max}.
 
 
         {support_text}
@@ -77,7 +77,7 @@ select_option:
 
         - **Notificações:** {notification_status}.
 
-        - **Notificações de level up:** {level_up_notification_status}.
+        - **Notificações de Level Up:** {level_up_notification_status}.
 
 
         {support_text}

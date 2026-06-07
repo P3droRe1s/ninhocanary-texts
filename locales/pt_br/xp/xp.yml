@@ -2,7 +2,7 @@ xp:
   errors:
     server_xp_guild_only: >
       Ei, mano, esse comando só funciona dentro de servidores {sob}.
-      Mas, se quiser ver o seu XP global, usa `{xp_global_command}`.
+      Mas, se quiser ver o seu XP global, usa `.xp global`.
 
   buttons:
     vote:
@@ -13,7 +13,6 @@ xp:
   embed:
     description: >-
       ### {title} {eyes}
-
 
       {start}
 
@@ -35,32 +34,32 @@ xp:
       {message_reward}{target_user_msg}
 
   embed_global_xp:
-    title: 'Visualizar XP Global {EYES}'
-    start: |
+    title: 'Visualizar XP Global'
+    start:
       Aqui você pode visualizar informações essenciais
       sobre o seu progresso ou o de outro usuário no ranking global
       de usuários.
 
   embed_server_xp:
-    title: 'Visualizar XP do Servidor {EYES}'
-    start: |
+    title: 'Visualizar XP do Servidor'
+    start:
       Aqui você pode visualizar informações essenciais
       sobre o progresso do servidor no ranking global de servidores.
 
   embed_user_xp:
-    title: 'Visualizar XP {EYES}'
-    start: |
+    title: 'Visualizar XP'
+    start:
       Aqui você pode visualizar informações essenciais sobre o seu
       progresso ou o de outro membro dentro deste servidor.
 
   friday_true: >-
 
-    {oi_rsrsrs} OBS: Multiplicador de {weekend_multiplier}x
+    {oi_rsrsrs} **OBS:** Multiplicador de {weekend_multiplier}x
     está ativado durante o fim de semana (sexta-feira incluída, rs)!
 
   weekend_true: >-
 
-    {oi_rsrsrs} OBS: Multiplicador de {weekend_multiplier}x
+    {oi_rsrsrs} **OBS:** Multiplicador de {weekend_multiplier}x
     está ativado durante o fim de semana!'
 
   ranking_none: 'Sem ranking'

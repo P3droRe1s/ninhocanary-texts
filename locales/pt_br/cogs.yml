@@ -1,0 +1,50 @@
+commands:
+  vote_name: 'votar'
+  vote_description: 'Miscelânea ~ Vote em mim para ganhar +10% no ganho de XP.'
+
+  global_rank_name: 'global'
+  global_rank_description: 'Diversão ~ Veja os usuários com mais XP no Ninho.'
+
+  servers_rank_name: 'servidores'
+  servers_rank_description: 'Diversão ~ Veja os servidores com mais XP no Ninho.'
+
+  server_rank_name: 'servidor'
+  server_rank_description: 'Diversão - Veja os usuários com masi XP deste servidor.'
+
+  server_xp_name: 'ver'
+  server_xp_description: 'Diversão ~ Visualize o total de XP acumulado de um membro neste servidor.'
+
+  servers_xp_name: 'servidor'
+  servers_xp_description: 'Diversão ~ Visualize o total de XP acumulado por este servidor no ranking global de servidores.'
+
+  global_xp_name: 'global'
+  global_xp_description: 'Diversão ~ Veja o total de XP global acumulado por um usuário no ranking global.'
+
+  notify_name: 'notificar'
+  notify_description: 'Configuração ~ Escolha se deseja receber notificações de level up por DM.'
+
+  config_name: 'configurar'
+  config_description: 'Configuração ~ Altere o meu comportamento neste servidor.'
+
+  xp_edit_name: 'editar'
+  xp_edit_description: 'Diversão ~ Edite o XP de algum membro deste servidor.'
+
+params:
+  name:
+    page: 'página'
+    member: 'membro'
+    user: 'usuário'
+    type: 'tipo'
+
+  description:
+    page: 'Selecione uma página para visualizar.'
+    member: 'Membro do qual você deseja visualizar no rank. Se não encontrado, a página 1 será exibida.'
+    xp_member: 'O membro do qual você deseja visualizar o XP.'
+    xp_user: 'O usuário cujo XP global você deseja visualizar.'
+    edit_xp_member: 'O membro do qual você deseja editar o XP.'
+    xp: 'A quantidade de XP a ser atribuída ao membro (sobrescrita).'
+    type: 'O tipo de XP que você deseja editar.'
+
+choices:
+  text_xp_type: 'Texto'
+  voice_xp_type: 'Call'

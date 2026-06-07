@@ -1,9 +1,16 @@
 setup:
+  button:
+    label: 'Take me to the panel'
+
   embed:
     title: 'Settings'
     global_xp_warning: >
-      Keep in mind that these settings won`t affect global XP gain.
-    description: >
-      Here you can customize my behavior to better fit your server`s needs.
+      **Keep in mind that these settings won't affect global XP gain.**
+    description: >-
+      Here you can customize my behavior to better fit your server's needs.
       Below, you can choose an option to see more detail or customise things your way.
-      If you have any questions or run into issues, feel free to reach out on the support server.
+      If you have any questions or run into issues, feel free to reach out on the support server. {warning}
+
+      {support_text}
+
+  success: 'I sent the setup panel to your DM! ;)'

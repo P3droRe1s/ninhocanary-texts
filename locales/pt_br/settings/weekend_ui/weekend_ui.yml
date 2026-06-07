@@ -20,8 +20,10 @@ manage_weekend_options:
   embed:
     weekend_status: '**Bônus de fim de semana:** {status}.'
     friday_status: '**Bônus na sexta-feira:** {status}.'
-    xp_multiplier: '**Bônus de XP:** {multiplier}x.'
+    xp_multiplier: '**Multiplicador de XP:** {multiplier}x.'
 
-  note: >
+  note: >-
+
+
     **OBS:** Algumas configurações aqui podem não funcionar direito,
     porque o bônus de fim de semana está desativado. {warning}

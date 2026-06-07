@@ -1,0 +1,50 @@
+commands:
+  vote_name: 'vote'
+  vote_description: 'Miscellaneous ~ Vote for me to earn a +10% XP gain bonus.'
+
+  global_rank_name: 'global'
+  global_rank_description: 'Fun ~ View the users with the most XP in Ninho.'
+
+  servers_rank_name: 'servers'
+  servers_rank_description: 'Fun ~ View the servers with the most XP in Ninho.'
+  
+  server_rank_name: 'server'
+  server_rank_description: 'Fun ~ View the users with the most XP in this server.'
+
+  server_xp_name: 'view'
+  server_xp_description: 'Fun ~ View the total XP accumulated by a member in this server.'
+
+  servers_xp_name: 'server'
+  servers_xp_description: 'Fun ~ View the total XP accumulated by this server in the global server rankings.'
+
+  global_xp_name: 'global'
+  global_xp_description: 'Fun ~ View a user''s total global XP in the global rankings.'
+
+  notify_name: 'notify'
+  notify_description: 'Settings ~ Choose whether you want to receive level-up notifications via DM.'
+
+  config_name: 'config'
+  config_description: 'Settings ~ Change how I behave in this server.'
+
+  xp_edit_name: 'edit'
+  xp_edit_description: 'Fun ~ Edit the XP of a member in this server.'
+
+params:
+  name:
+    page: 'page'
+    member: 'member'
+    user: 'user'
+    type: 'type'
+
+  description:
+    page: 'Select a specific page to view.'
+    member: 'The member whose rank you want to view. If not found, page 1 will be displayed.'
+    xp_member: 'The member whose XP you want to view.'
+    xp_user: 'The user whose global XP you want to view.'
+    edit_xp_member: 'The member whose XP you want to edit.'
+    xp: 'The amount of XP to set for the member (overwrites the current value).'
+    type: 'The type of XP you want to edit.'
+
+choices:
+  text_xp_type: 'Text'
+  voice_xp_type: 'Voice'

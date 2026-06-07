@@ -13,10 +13,10 @@ manage_multiplier_options:
 
   modals:
     errors:
-      multiplier_defined: "Man, this role is already an XP multiplier lol"
+      multiplier_defined: "Man, this role is already an XP multiplier lol."
       invalid_multiplier: >
         Hey, send a valid multiplier between 1.1x and 99.9x.
-        Anything lower or higher than that, I can`t handle {sob}.
+        Anything lower or higher than that, I can't handle. {sob}
 
     change_factor:
       title: "Change multiplier"
@@ -29,19 +29,20 @@ manage_multiplier_options:
 
   embed:
     title: "Edit Multipliers"
-    description: >
+    description: >-
       Here you can select an existing XP multiplier to view, 
-      edit its settings, or delete it if you want. Below, there`s a menu 
+      edit its settings, or delete it if you want. Below, there's a menu 
       with the multipliers created in this server. 
       Just click it and choose the one you want.  
 
+
       {support_text}
-    mul_status: '{text} {status}.'
-    stacking_status: '{text} {status}.'
+    mul_status: '**XP Multipliers:** {status}.'
+    stacking_status: '**Stacking Multipliers:** {status}.'
 
   embed_role:
     description: >-
-      Here you can view, adjust, or delete this role you`ve set 
+      Here you can view, adjust, or delete this role you've set 
       as an XP multiplier. XP multiplier roles determine how much extra XP 
       members with this role will receive.
 
@@ -52,11 +53,13 @@ manage_multiplier_options:
 
 
       {support_text}
-    role_text: "{text_role} {role_formatted}."
-    text_boost: "{text_boost} {boost}x."
+    role_text: "**Role:** {role_formatted}."
+    text_boost: "**Multiplier:** {boost}x."
 
-  note: >
-    {obs} Some settings here may not work properly
+  note: >-
+
+
+     **NOTE:** Some settings here may not work properly
      because XP multipliers are disabled. {warning}
 
 manage_role_multiplier_options:

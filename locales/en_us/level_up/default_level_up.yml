@@ -1,2 +1,2 @@
 default_message: >
-  Nice, {user.mention}! You`ve just reached level {user.level}. {fire}
+  Nice, {user.mention}! You've just reached level {user.level}. {fire}

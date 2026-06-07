@@ -37,8 +37,8 @@ manage_multiplier_options:
 
 
       {support_text}
-    mul_status: '{text} {status}.'
-    stacking_status: '{text} {status}.'
+    mul_status: '**Multiplicadores de XP:** {status}.'
+    stacking_status: '**Empilhar Multiplicadores:** {status}.'
 
   embed_role:
     description: >-
@@ -53,11 +53,13 @@ manage_multiplier_options:
 
 
       {support_text}
-    role_text: '{text_role} {role_formatted}.'
-    text_boost: '{text_boost} {boost}x.'
+    role_text: '**Cargo:** {role_formatted}.'
+    text_boost: '**Multiplicador:** {boost}x.'
 
-  note: >
-    {obs} Algumas configurações aqui podem não funcionar direito,
+  note: >-
+
+
+    **OBS:** Algumas configurações aqui podem não funcionar direito,
     porque os multiplicadores de XP estão desativados. {warning}
 
 manage_role_multiplier_options:

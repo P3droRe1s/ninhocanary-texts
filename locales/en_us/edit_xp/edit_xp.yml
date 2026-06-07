@@ -1,12 +1,28 @@
-errors:
-  edit_app_xp: >
-    Lil bro, bots don`t even gain XP, imagine trying to change it {sob}{pray}.
-  no_args_edit_xp: >
-    Dudeeee, you forgot to give me the full info! I need
-    {literal_member}, {literal_type} and {literal_xp} to do that.
-  unknown_xp_type: >
-    Man, I have no idea what {type_} is {sob}. Use {literal_textual} or
-    {literal_vocal} as the XP type.
-  ausent_options: >
-    Bro, you left some options blank {sob}. You missed {options}.
-    Fill everything in properly and try again. ;)
+edit_xp:
+  errors:
+    no_args: >
+      Dudeeee, you forgot to give me the full info! I need
+      `member`, `type` and `xp` to do that. {sob}
+    unknown_user: >
+      Sorry, but I couldn't find that user in this server...
+    invalid_xp_type: >
+      Man, I have no idea what `{type}` is. Use `text` or `voice` as the XP type.
+    missing_options: >
+      Bro, you left some options blank. You missed
+      {options}. Fill everything in properly and try again. ;)
+    guild_only: >
+      Dudeee, this command can only be used inside servers!
+    forbidden: >
+      Hey! Only the server owner and administrators
+      can use this command.
+    edit_app_xp: >
+      Lil bro, bots dont even gain XP, imagine trying to change it. {sob}{pray}
+
+  success:
+    edited_xp: >
+      That's awesome! {member}'s {xp_type} XP has been successfully updated from {old} to {new}!
+
+  options:
+    - member
+    - type
+    - xp

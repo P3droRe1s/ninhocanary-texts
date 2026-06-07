@@ -27,8 +27,6 @@ Atualmente o projeto possui suporte para:
 
 - Português (Brasil)
 - Inglês (Estados Unidos)
-- Alemão (Alemanha) - Traduzido com IA
-- Espanhol (Espanha) - Traduzido com IA 
 
 Mais idiomas poderão ser adicionados futuramente.
 

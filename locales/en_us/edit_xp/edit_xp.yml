@@ -19,8 +19,8 @@ edit_xp:
       Lil bro, bots dont even gain XP, imagine trying to change it. {sob}{pray}
 
   success:
-    edited_xp: >
-      That's awesome! {member}'s {xp_type} XP has been successfully updated from {old} to {new}!
+    xp_edited: >
+      Sweet, dude! {member}'s `{xp_type}` XP was successfully changed from {old} to {new}!
 
   options:
     - member

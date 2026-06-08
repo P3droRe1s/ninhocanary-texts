@@ -1,17 +1,17 @@
 topgg:
   embed:
-    title: 'Valeu pelo voto!'
+    title: 'Thanks for voting!'
     description: >-
       Heyy, {user_mention}! Thank you so much for voting
       for me on TOP.GG. Every vote helps me grow and reach
       more people.
 
 
-      You now have {votes}. As a reward, you`ve recieved
+      You now have {votes}. As a reward, you've recieved
       a {boost_msg}.
 
 
-      This boost will expire <t:{timestamp}:R>. If, you`d 
+      This boost will expire <t:{timestamp}:R>. If, you'd 
       like to keep the bonus active, just vote again when
       you can.
 
@@ -24,12 +24,16 @@ topgg:
   embed_reminder:
     title: 'Vote for Me Again on TOP.GG!'
     description: >-
-      Ayo, {user_mention}! Hope you`re doing well.
-      I`m, just stopping by to remind you that it`s been
+      Ayo, {user_mention}! Hope you're doing well.
+      I'm, just stopping by to remind you that it's been
       12 hours since your last vote for me on TOP.GG!
 
 
       Your **+10% XP gain boost** has expired for now, 
-      but don`t worry-you can vote again already.
-      Not only will you be helping me a lot, but you`ll 
+      but don't worry, you can vote again already.
+      Not only will you be helping me a lot, but you'll 
       also get your boost back. Pretty cool, right?
+
+  buttons:
+    reminder:
+      label: 'Vote here!'

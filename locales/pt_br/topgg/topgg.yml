@@ -31,3 +31,7 @@ topgg:
       por agora, mas não se preocupe. Você já pode votar
       novamente. Além de me ajudar muito, você ainda
       receberá seu boost de novo! Legal, né?
+
+  buttons:
+    reminder:
+      label: 'Vote aqui!'

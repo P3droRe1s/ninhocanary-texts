@@ -16,32 +16,34 @@ level_notification_options:
   embed:
     title: 'Edit Level-up Message'
     description: >-
-      Here you can customize your level-up mesage however you like:
-      choose where it will be sent, set how often it appears, and test 
-      everything to see how it looks.
+      Here you can customize your level-up message however you like:
+      choose where it will be sent, set how often it appears,
+      and test everything to see how it looks.
 
 
       - {channel_text}
 
       - {interval_text}
 
+      - {send_actual_channel}
+
       - {dm_text}
 
 
       {support_text}
+
     notification_status: '**Notifications:** {status}.'
     level_up_status: '**Level-Up Notifications:** {status}.'
     channel_status: '**Which channel the message will be sent to:** {channel}.'
-    interval: '**How often (in levels) the mesage will be sent:** {interval}.'
+    interval: '**How often (in levels) the message will be sent:** {interval}.'
+    send_actual_channel: '**Notify in the activity channel:** {status}.'
     dm_notify: '**Notify via DM:** {status}.'
 
   channel_none: 'no channel'
 
   note: >-
-
-
-    **NOTE:** Some settings here may not work properly 
-    because level-up notification are disabled. {warning}
+    **NOTE:** Some settings here may not work properly because
+    level-up notifications are disabled. {warning}
 
 edit_level_messages_options:
   buttons:
@@ -66,8 +68,9 @@ edit_level_messages_options:
 
   errors:
     dm_forbidden: >
-      Bro, I tried sending you the test message in your DM, but
-      they're disabled for this server. Turn them on and try again.
+      Bro, I tried sending you the test message in your DMs,
+      but they're disabled for this server. Turn them on and try again.
+
     channel_forbidden: >
       Man, I tried sending the test message to the selected channel,
       but I think I don't have permission to do that... maybe.
@@ -75,42 +78,37 @@ edit_level_messages_options:
 
   placeholders_embed:
     title: 'List of Placeholders'
-    description: >-
-      Here are some placeholders you can use to customize your 
+    description: |
+      Here are some placeholders you can use to customize your
       level-up message. Just include one of them in your text and
       I'll replace it with the correct value when sending it.
 
-
       - {user_mention_str}: mentions the user.
-
       - {user_name_str}: shows the user's display name.
-
       - {user_id_str}: shows the user's ID.
-
       - {user_tag_str}: shows the user's global name.
-
       - {user_level_str}: shows the user's current level.
-
       - {user_xp_total_str}: shows the user's total XP.
-
       - {user_xp_textual_str}: shows the user's text XP.
-
       - {user_xp_vocal_str}: shows the user's voice XP.
-
       - {user_next_level_str}: shows the user's next level.
-
       - {user_ranking_str}: shows the user's server rank position.
-
       - {user_next_level_required_xp}: shows how much XP is needed for the next level.
-
       - {user_next_level_total_xp}: shows the total XP required for the next level.
 
 edit_notification_level_up_message_options:
   buttons:
     disable_dm_notification:
-      label: 'Disable DM notification'
+      label: 'Disable DM notifications'
+
     enable_dm_notification:
-      label: 'Enable DM notification'
+      label: 'Enable DM notifications'
+
+    disable_actual_channel:
+      label: 'Disable channel notifications'
+
+    enable_actual_channel:
+      label: 'Enable channel notifications'
 
     manage_message:
       label: 'Manage message'
@@ -130,8 +128,8 @@ edit_notification_level_up_message_options:
     change_interval:
       errors:
         invalid_interval: >
-          Son, that interval is invalid! Enter a number between
-          1 and 99 (whole numbers only). :)
+          Bro, that interval is invalid! Enter a whole number
+          between 1 and 99. :)
 
       title: 'Change interval'
       label: 'New interval value'
@@ -140,13 +138,13 @@ edit_notification_level_up_message_options:
     edit_message:
       title: 'Edit message'
       label: 'New message'
-      placeholder: 'Type the new message. Use {} to insert placeholders'
+      placeholder: 'Type the new message. Use {} to insert placeholders.'
 
   embed:
     title: 'Manage Message'
     description: >-
-      Here you can edit the level-up message that server members 
-      receive when they level up, see which message is currently set, 
+      Here you can edit the level-up message that server members
+      receive when they level up, see which message is currently configured,
       and test how it will be sent and displayed.
 
 

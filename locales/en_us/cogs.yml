@@ -1,6 +1,12 @@
+groups:
+  rank_group_name: 'leaderboard'
+
 commands:
   vote_name: 'vote'
   vote_description: 'Miscellaneous ~ Vote for me to earn a +10% XP gain bonus.'
+
+  help_name: 'help'
+  help_description: 'Utility ~ Learn everything you need to know about NinhoCanary.'
 
   global_rank_name: 'global'
   global_rank_description: 'Fun ~ View the users with the most XP in Ninho.'
@@ -20,8 +26,8 @@ commands:
   global_xp_name: 'global'
   global_xp_description: 'Fun ~ View a user''s total global XP in the global rankings.'
 
-  notify_name: 'notify'
-  notify_description: 'Settings ~ Choose whether you want to receive level-up notifications via DM.'
+  pref_name: 'preferences'
+  pref_description: 'Settings ~ Customize your Ninho preferences.'
 
   config_name: 'config'
   config_description: 'Settings ~ Change how I behave in this server.'

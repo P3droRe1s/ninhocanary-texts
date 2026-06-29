@@ -53,7 +53,7 @@ manage_rewards_options:
   xp_type_list:
     - Total XP
     - Text XP
-    - Call XP
+    - Voice XP
 
   note: >-
 

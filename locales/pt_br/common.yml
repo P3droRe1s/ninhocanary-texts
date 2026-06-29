@@ -39,6 +39,7 @@ common:
 
   buttons:
       open_panel: 'Leve-me até o painel'
+      guide: 'Guia'
 
   menus:
     select_option: 'Selecione uma opção...'

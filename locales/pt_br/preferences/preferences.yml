@@ -1,0 +1,31 @@
+preferences:
+  buttons:
+    disable_level_up_dm_not:
+      label: 'Desativar Notificações de Level Up na DM'
+    enable_level_up_dm_not:
+      label: 'Ativar Notificações de Level Up na DM'
+
+  embeds:
+    guide: 'Selecione uma opção abaixo para saber mais sobre.'
+
+    pref_embed:
+      title: 'Preferências'
+      description: >-
+        Aqui você pode personalizar sua experiência com o Ninho. Escolha o
+        idioma de sua preferência e gerencie as notificações de level up
+        por mensagem direta (DM). As preferências do usuário afetam apenas
+        a sua conta e não alteram o comportamento do Ninho para outros
+        membros ou servidores.
+
+
+        {language_msg}
+        {level_up_not_msg}
+
+        {support_text}
+
+      level_up_not_msg: >
+        - **Notificações de Level Up na DM:** {status}.
+      language_msg: >
+        - **Idioma:** {language}.
+
+  success: 'Enviei o painel de preferências na sua DM! ;)'

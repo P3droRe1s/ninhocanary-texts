@@ -1,0 +1,31 @@
+preferences:
+  buttons:
+    disable_level_up_dm_not:
+      label: 'Disable DM Level-Up Notifications'
+    enable_level_up_dm_not:
+      label: 'Enable DM Level-Up Notifications'
+
+  embeds:
+    guide: 'Select a topic below to learn more.'
+
+    pref_embed:
+      title: 'Preferences'
+      description: >-
+        Here you can customize your Ninho experience. Choose your preferred
+        language and manage level-up notifications sent via direct messages
+        (DMs). User preferences only affect your account and do not change
+        how Ninho behaves for other members or servers.
+
+
+        {language_msg}
+        {level_up_not_msg}
+
+        {support_text}
+
+      level_up_not_msg: >
+        - **Level-Up DM Notifications:** {status}.
+
+      language_msg: >
+        - **Language:** {language}.
+
+  success: 'I sent the preferences panel to your DM! ;)'

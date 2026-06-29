@@ -1,4 +1,9 @@
 aliases:
+  groups:
+    leaderboard:
+      - lb
+      - rank
+
   vote:
     - votar
 
@@ -14,5 +19,13 @@ aliases:
   config:
     - configurar
 
+  preferences:
+    - pref
+    - preferências
+
   edit_xp:
     - editar
+
+  help:
+    - h
+    - ajuda

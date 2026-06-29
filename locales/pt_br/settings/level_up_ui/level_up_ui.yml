@@ -25,6 +25,8 @@ level_notification_options:
 
       - {interval_text}
 
+      - {send_actual_channel}
+
       - {dm_text}
 
 
@@ -33,6 +35,7 @@ level_notification_options:
     level_up_status: '**Notificações de Level Up:** {status}.'
     channel_status: '**Em qual canal a mensagem será enviada:** {channel}.'
     interval: '**A cada quantos níveis a mensagem será enviada:** {interval}.'
+    send_actual_channel: '**Notificar no canal de interação:** {status}.'
     dm_notify: '**Notificar via DM:** {status}.'
 
   channel_none: 'sem canal'
@@ -99,6 +102,11 @@ edit_notification_level_up_message_options:
       label: 'Desativar notificação por DM'
     enable_dm_notification:
       label: 'Ativar notificação por DM'
+
+    disable_actual_channel:
+      label: 'Desativar notificação no canal'
+    enable_actual_channel:
+      label: 'Ativar notificação no canal'
 
     manage_message:
       label: 'Gerenciar mensagem'

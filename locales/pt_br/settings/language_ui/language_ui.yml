@@ -1,0 +1,4 @@
+language_ui:
+  buttons:
+    change_lang:
+      label: 'Alterar idioma'

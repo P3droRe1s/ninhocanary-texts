@@ -1,0 +1,29 @@
+greetings:
+  mention:
+    mention_message: >-
+      Aoba, {user_mention}! Meu prefixo é `{prefix}`, mas você também pode
+      usar meus comandos de barra (`/`). Use `.ajuda` para ver
+      tudo o que eu posso fazer. {sunglasses}
+
+  welcome:
+    welcome_message:
+      embed:
+        title: 'Opaaa! Muito obrigado por me adicionar!'
+        description: >-
+          Aoba! Muito obrigado por me adicionar em seu servidor. Saiba
+          que estou muito feliz em fazer parte dessa comunidade incrível! :D
+
+
+          Eu me chamo **NinhoCanary** e sou um **bot de XP avançado**,
+          com **XP em call**, **XP por texto** e muitas funcionalidades
+          incríveis!
+
+
+          Para começar, utilize `.ajuda` para saber tudo o que posso fazer.
+          Use `.configurar` para ajustar minhas configurações neste servidor
+          ou `.pref` para ajustar suas preferências comigo.
+
+
+          E se quiser, entre em nosso maravilhoso [servidor de suporte]({support_guild})!
+          Você também pode me convidar para outro servidor [clicando aqui]({bot_invite}).
+          {sunglasses}

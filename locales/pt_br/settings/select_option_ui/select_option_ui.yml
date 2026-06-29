@@ -10,12 +10,27 @@ select_option:
   menus:
     options:
       label:
+        language: 'Idioma'
         xp_multiplier: 'Multiplicadores de XP'
         weekend: 'Bônus de fim de semana'
         rewards: 'Cargos de recompensa'
         notification: 'Notificação de progresso'
 
   embed:
+    language:
+      title: 'Idioma'
+      description:
+        Aqui você pode selecionar um dos idiomas disponíveis para que o Ninho
+        utilize neste servidor. Caso um membro tenha um idioma preferido
+        configurado, o Ninho utilizará o idioma desse membro em vez do
+        idioma definido neste servidor.
+
+
+        - **Idioma:** {language}.
+
+
+        {support_text}
+
     multiplier:
       title: 'Multiplicadores de XP'
       description:

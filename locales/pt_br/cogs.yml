@@ -1,6 +1,12 @@
+groups:
+  rank_group_name: 'rank'
+
 commands:
   vote_name: 'votar'
   vote_description: 'Miscelânea ~ Vote em mim para ganhar +10% no ganho de XP.'
+
+  help_name: 'ajuda'
+  help_description: 'Utilitários ~ Aprenda tudo o que você precisa saber sobre o NinhoCanary.'
 
   global_rank_name: 'global'
   global_rank_description: 'Diversão ~ Veja os usuários com mais XP no Ninho.'
@@ -20,8 +26,8 @@ commands:
   global_xp_name: 'global'
   global_xp_description: 'Diversão ~ Veja o total de XP global acumulado por um usuário no ranking global.'
 
-  notify_name: 'notificar'
-  notify_description: 'Configuração ~ Escolha se deseja receber notificações de level up por DM.'
+  pref_name: 'preferências'
+  pref_description: 'Configuração ~ Ajuste suas preferências no Ninho.'
 
   config_name: 'configurar'
   config_description: 'Configuração ~ Altere o meu comportamento neste servidor.'

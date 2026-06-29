@@ -1,2 +1,3 @@
 default_message: >
-  Aí sim, {user.mention}! Você acabou de alcançar o nível {user.level}. {fire}
+  Aí sim, {user.mention}! Você acabou de alcançar o nível {user.level}.
+  Use `.xp` para conferir seu progresso. {fire}

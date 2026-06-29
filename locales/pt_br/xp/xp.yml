@@ -30,8 +30,7 @@ xp:
 
 
       {hourglass} **Próximo Nível:** {next_level}.
-
-      {message_reward}{target_user_msg}
+      {message_reward}{message_multiplier}{target_user_msg}
 
   embed_global_xp:
     title: 'Visualizar XP Global'
@@ -54,7 +53,7 @@ xp:
 
   friday_true: >-
 
-    {oi_rsrsrs} **OBS:** Multiplicador de {weekend_multiplier}x
+    {smirk} **OBS:** Multiplicador de {weekend_multiplier}x
     está ativado durante o fim de semana (sexta-feira incluída, rs)!
 
   weekend_true: >-
@@ -63,13 +62,32 @@ xp:
     está ativado durante o fim de semana!'
 
   ranking_none: 'Sem ranking'
-  next_reward: '{present} **Próxima Recompensa:** {reward_mention}'
+  next_reward_head: >-
+
+    {present} **Próxima(s) Recompensa(s):**
+  reward_info: >-
+
+    ㅤ• {reward_mention} ({r_type_str}) _~ [{user_xp}/{xp_required}]_
+
+  multiplier_info:
+    not_stacking: >-
+
+      {sparkles} **Bônus de XP:** Por ter o cargo {role}, você recebe
+      {multiplier}x mais XP.
+
+    stacking: >-
+
+      {sparkles} **Bônus de XP:** Por ter vários cargos que multiplicam seu XP,
+      você recebe {multiplier}x mais XP.
 
   duration:
-    hours: '{hours} hora(s)'
-    minutes: '{minutes} minuto(s)'
+    hours: '{hours}h'
+    minutes: '{minutes}m'
+    seconds: '{seconds}s'
 
-  field: '{compass} **Objetivo:**'
+  field: |-
+
+    {compass} **Objetivo:**
 
   target_user:
     overtake: >
@@ -79,5 +97,5 @@ xp:
 
     keep_first_place: >
 
-      {field} Continue ganhando XP para manter o #1 lugar
-      e não deixar {name} te ultrapassar!
+      {field} Faltam apenas +{xp_required} XP para {name} te ultrapassar.
+      Continue ganhando XP e mantenha o #1 lugar!

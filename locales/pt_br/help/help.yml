@@ -1,0 +1,534 @@
+help:
+  help_command:
+    embeds:
+      command_embed:
+        title: 'Central de Ajuda do NinhoCanary'
+        description: >-
+          Eae, {user_mention}! Bem-vindo à minha Central de Ajuda!
+
+
+          Aqui você pode explorar todos os meus comandos e aprender mais sobre
+          os recursos que eu possuo.
+
+
+          Você pode usar meus comandos através do prefixo `.`, me mencionando ou
+          por comandos slash (`/`). E o melhor: a ordem das opções não importa
+          nos comandos! :)
+
+
+          Abaixo tem um menu onde você pode selecionar uma categoria para começar a
+          explorar e aprender um pouco mais sobre mim.
+
+
+          Se precisar de ajuda, tiver dúvidas ou encontrar algum problema, entre em
+          nosso [servidor de suporte]({support_guild}).
+
+
+          - [Termos de Serviço]({tos_link})
+
+          - [Política de Privacidade]({privacy_link})
+
+          - [Servidor de Suporte]({support_guild})
+
+  select_commands:
+    embeds:
+      xp_commands:
+        description: >-
+          Os comandos de XP são responsáveis por exibir informações essenciais sobre
+          o progresso no sistema de experiência. Existem três tipos de XP: o seu XP
+          no servidor atual, o seu XP global e o XP acumulado pelo próprio servidor.
+          Selecione um comando no menu abaixo para obter mais detalhes.
+
+
+          {support_text}
+
+        xp_edit:
+          description: >-
+            Permite editar manualmente o XP de um membro em um servidor. Essa alteração
+            afeta apenas o XP individual do membro no servidor onde o comando foi
+            utilizado, não modificando o XP global do membro nem o XP total do servidor.
+
+
+            Apenas pessoas com a permissão de administrador e o dono do servidor podem
+            utilizar este comando.
+
+
+            - **Usos:**
+              - `.xp editar <membro> <tipo> <xp>`
+              - `/xp editar <membro> <tipo> <xp>`
+              - `@NinhoCanary xp editar <membro> <tipo> <xp>`
+            - **Funcionamento:** Altera o XP de um membro em um servidor.
+
+            - **OBS:**
+              - Você pode informar as opções em qualquer ordem.
+              - As opções `<membro>`, `<tipo>` e `<xp>` são obrigatórias.
+              - O valor da opção `<xp>` deve ser um número inteiro.
+              - A opção `<tipo>` deve ser obrigatoriamente `texto` ou `call`.
+
+            {support_text}
+
+        local_xp:
+          description: >-
+            O XP no servidor é a experiência acumulada por um usuário através de interações
+            em canais de texto e voz. A quantidade de XP recebida pode ser afetada por
+            configurações do servidor, como multiplicadores de XP concedidos por cargos,
+            bônus de fim de semana e outros benefícios configurados pela administração.
+
+
+            Além disso, os administradores podem definir recompensas automáticas, como
+            cargos especiais, que são concedidas aos membros ao atingirem determinadas
+            quantidades de XP.
+
+
+            - **Usos:**
+              - `.xp <membro>`
+              - `/xp ver <membro>`
+              - `@NinhoCanary xp <membro>`
+            - **Funcionamento:** Exibe informações sobre o progresso de um membro no servidor em que o comando for utilizado. Se nenhum membro for informado, suas próprias estatísticas serão exibidas.
+
+
+            {support_text}
+
+        global_xp:
+          description: >-
+            O XP Global é a experiência acumulada por um usuário em todos os servidores
+            que utilizam o NinhoCanary. Sempre que você interage em canais de texto ou
+            voz, uma parte da experiência obtida também contribui para o seu progresso global.
+
+
+            Diferentemente do XP local de cada servidor, o XP Global não é afetado por
+            multiplicadores de XP, bônus de fim de semana ou outras configurações específicas
+            definidas pelos administradores. Isso garante que todos os usuários compitam
+            em condições iguais.
+
+
+            Por padrão, o XP Global recebe um bônus de 2.0x durante as sextas-feiras, sábados
+            e domingos. Além disso, os usuários mais bem colocados no ranking global podem
+            receber recompensas trimestrais, como dinheiro, assinaturas Nitro e itens
+            colecionáveis da loja oficial do Discord.
+
+
+            - **Usos:**
+              - `.xp global <membro>`
+              - `/xp global <membro>`
+              - `@NinhoCanary xp global <membro>`
+            - **Funcionamento:** Exibe informações sobre o progresso global de um membro em todos os servidores que utilizam o NinhoCanary. Se nenhum membro for informado, suas próprias estatísticas globais serão exibidas.
+
+
+            {support_text}
+
+        server_xp:
+          description: >-
+            O XP do Servidor representa a experiência total acumulada por todos os
+            membros através de interações em canais de texto e voz. Cada mensagem
+            enviada e cada período de atividade em canais de voz contribui para o
+            XP total do servidor.
+
+
+            Diferentemente do XP local dos usuários, o XP do Servidor não é
+            afetado por multiplicadores de XP, bônus de fim de semana ou outras
+            configurações específicas definidas pelos administradores. Isso garante
+            que todos os servidores concorram em condições iguais no ranking global.
+
+
+            Por padrão, o XP do Servidor recebe um bônus de 2.0x durante as sextas-feiras,
+            sábados e domingos. Quanto mais ativa for a comunidade durante esse período,
+            mais rapidamente o servidor poderá subir no ranking global.
+
+
+            Além disso, os servidores mais bem colocados no ranking global podem
+            receber recompensas trimestrais. Os donos desses servidores
+            poderão ser premiados com dinheiro, assinaturas Nitro e outros itens
+            especiais distribuídos pela equipe responsável do NinhoCanary.
+
+
+            - **Usos:**
+              - `.xp servidor`
+              - `/xp servidor`
+              - `@NinhoCanary xp servidor`
+            - **Funcionamento:** Exibe informações sobre o progresso deste servidor entre todos os servidores que utilizam o NinhoCanary.
+
+
+            {support_text}
+
+      lb_commands:
+        description: >-
+          Os rankings permitem acompanhar a posição de usuários e servidores com
+          base na experiência acumulada. Existem três tipos de ranking: o ranking
+          do servidor atual, o ranking global de usuários e o ranking global de
+          servidores. Selecione um comando no menu abaixo para obter mais detalhes.
+
+
+          {support_text}
+
+        local_lb:
+          description: >-
+            Exibe uma imagem do ranking local do servidor, mostrando a posição dos
+            usuários, XP obtido por mensagens de texto, XP obtido em chamadas de voz
+            e XP total. Os usuários são listados em ordem decrescente de atividade no
+            servidor onde o comando foi utilizado.
+
+
+            - **Usos:**
+              - `.rank <página> <membro>`
+              - `/rank servidor <página> <membro>`
+              - `@NinhoCanary rank <página> <membro>`
+            - **Funcionamento:** Exibe o ranking local do servidor onde o comando é utilizado. Caso nenhuma página seja informada, será exibida a página 1 por padrão. Caso um membro seja informado, o Ninho exibirá a página em que esse membro se encontra no ranking.
+
+            - **OBS:** Você pode informar as opções em qualquer ordem.
+
+
+            {support_text}
+
+        global_lb:
+          description: >-
+            Exibe uma imagem do ranking global do NinhoCanary com os 200 usuários com
+            maior XP em todo o sistema. Esse ranking representa a competição global
+            entre todos os usuários.
+
+
+            O ranking é resetado a cada 3 meses, marcando o fim de uma temporada. Ao
+            final de cada temporada, o usuário que ocupar a 1ª posição pode receber
+            recompensas especiais concedidas pela equipe do NinhoCanary no servidor de
+            suporte oficial.
+
+
+            - **Usos:**
+              - `.rank global <página> <membro>`
+              - `/rank global <página> <membro>`
+              - `@NinhoCanary rank global <página> <membro>`
+            - **Funcionamento:** Exibe o ranking global de usuários do NinhoCanary. Caso nenhuma página seja informada, será exibida a página 1 por padrão. Caso um membro seja informado, o Ninho exibirá a página em que esse usuário se encontra no ranking global.
+
+            - **OBS:** Você pode informar as opções em qualquer ordem.
+
+
+            {support_text}
+
+        server_lb:
+          description: >-
+            Exibe uma imagem do ranking global de servidores do NinhoCanary com os 200
+            servidores com maior XP no sistema. Esse ranking representa a competição
+            entre servidores que utilizam o NinhoCanary.
+
+
+            O ranking é resetado a cada 3 meses, marcando o fim de uma temporada. Ao
+            final de cada temporada, o dono do servidor que ocupar a 1ª posição pode
+            receber recompensas especiais concedidas pela equipe do NinhoCanary no
+            servidor de suporte oficial.
+
+
+            - **Usos:**
+              - `.rank servidores <página>`
+              - `/rank servidores <página>`
+              - `@NinhoCanary rank servidores <página>`
+            - **Funcionamento:** Exibe o ranking global de servidores do NinhoCanary. Caso nenhuma página seja informada, será exibida a página 1 por padrão.
+
+
+            {support_text}
+
+      config_commands:
+        description: >-
+          Os comandos de configuração permitem personalizar o comportamento do
+          NinhoCanary tanto para usuários quanto para servidores. As preferências
+          afetam apenas o usuário que as define e, quando aplicável, têm prioridade
+          sobre as configurações do servidor. Já as configurações do servidor
+          determinam como o NinhoCanary se comportará para todos os membros da
+          comunidade e podem ser gerenciadas apenas pelos administradores.
+
+
+          {support_text}
+
+        config:
+          description: >-
+            Permite visualizar e alterar as configurações do servidor por meio
+            de um painel interativo no Discord. Com esse comando, os administradores
+            podem personalizar o comportamento do NinhoCanary para todos os membros,
+            incluindo idioma, multiplicadores de XP, bônus de fim de semana, cargos de
+            recompensa e mensagens de level up.
+
+
+            Apenas o dono do servidor e membros com as permissões **Administrador**
+            ou **Gerenciar Servidor** podem utilizar este comando.
+
+
+            Quando utilizado como comando de barra (`/`), o painel será enviado em uma
+            mensagem efêmera no canal onde você executou o comando, visível apenas para você.
+            Já ao utilizar o comando por prefixo, o NinhoCanary tentará enviar o painel por
+            mensagem direta (DM) e, em seguida, informará no canal se o envio foi realizado
+            com sucesso ou se falhou, por exemplo, caso suas mensagens diretas estejam desativadas.
+
+
+            Logo abaixo, você encontrará um menu com todas as configurações disponíveis.
+            Selecione uma delas para obter mais detalhes.
+
+
+            - **Usos:**
+              - `.configurar`
+              - `/configurar`
+              - `@NinhoCanary configurar`
+            - **Funcionamento:** Abre um painel interativo de configurações do servidor, permitindo visualizar e alterar todas as configurações disponíveis para a comunidade.
+
+
+            {support_text}
+
+          language:
+            description: >-
+              Altera o idioma padrão que o NinhoCanary utilizará para responder aos
+              membros do servidor. Caso um usuário defina um idioma diferente em suas
+              preferências, essa configuração terá prioridade e será aplicada apenas
+              às respostas enviadas para aquele usuário.
+
+
+              {support_text}
+
+          xp_multipliers:
+            description: >-
+              Permite configurar até 6 cargos como multiplicadores de XP para o servidor.
+              Cada cargo pode possuir um multiplicador entre **1.1x** e **99.9x** sobre o
+              XP recebido pelos membros.
+
+
+              Também é possível definir se os multiplicadores poderão ser empilhados.
+              Quando essa opção estiver ativada, todos os multiplicadores dos cargos de um
+              membro serão combinados. O cálculo é feito multiplicando todos os
+              multiplicadores entre si. Por exemplo, um usuário com um cargo de **2.0x** e
+              outro de **1.5x** receberá um multiplicador final de **2.5x** de XP. Caso o
+              empilhamento esteja desativado, apenas o maior multiplicador será aplicado,
+              ou seja, no mesmo exemplo, o usuário receberá apenas **2.0x** de XP.
+
+
+              {support_text}
+
+          weekend_boost:
+            description: >-
+              Permite configurar um multiplicador de XP que será aplicado
+              automaticamente durante os fins de semana. Por padrão, o bônus é ativado
+              aos sábados e domingos, mas também é possível incluir a sexta-feira.
+
+
+              O multiplicador pode ser definido entre **1.1x** e **99.9x** e será
+              aplicado a todos os membros do servidor durante os dias configurados.
+
+
+              {support_text}
+
+          reward_roles:
+            description: >-
+              Permite configurar até 12 cargos de recompensa que serão concedidos
+              automaticamente aos membros ao atingirem uma determinada quantidade de XP.
+              Para cada cargo, é possível definir a quantidade de XP necessária e qual
+              tipo de XP será considerado: **XP por texto**, **XP em call** ou **XP total**
+              (texto + voz).
+
+
+              Também é possível definir se as recompensas poderão ser empilhadas. Quando
+              essa opção estiver ativada, um membro manterá todos os cargos de
+              recompensas já conquistados. Caso contrário, ele manterá apenas o cargo de
+              recompensa de maior XP já alcançado.
+
+
+              {support_text}
+
+          progress_not:
+            description: >-
+              Permite configurar as mensagens de progresso (level up) enviadas
+              automaticamente aos membros sempre que atingirem um novo nível no servidor.
+
+
+              É possível definir onde a mensagem será enviada, escolhendo entre o
+              canal atual, um canal específico ou mensagem direta (DM). Além disso,
+              você pode personalizar o conteúdo das mensagens utilizando variáveis
+              dinâmicas (placeholders), visualizar a prévia e realizar testes.
+
+
+              Também é possível definir a frequência com que as mensagens serão enviadas.
+              Por exemplo, configurando o intervalo para **5**, os membros receberão
+              uma mensagem apenas a cada **5 níveis**.
+
+
+              Por padrão, essa configuração vem habilitada, enviando a mensagem no
+              canal em que o membro subiu de nível (canal atual) e apenas a cada **5 níveis**.
+
+
+              {support_text}
+
+        preferences:
+          description: >-
+            Permite visualizar e alterar suas preferências pessoais por
+            meio de um painel interativo no Discord. As preferências afetam
+            apenas a sua experiência com o NinhoCanary e, quando aplicável,
+            têm prioridade sobre as configurações definidas pelos
+            servidores em que você participa.
+
+
+            Quando utilizado como comando de barra (`/`), o painel será enviado em uma
+            mensagem efêmera no canal onde você executou o comando, visível apenas para você.
+            Já ao utilizar o comando por prefixo, o NinhoCanary tentará enviar o painel por
+            mensagem direta (DM) e, em seguida, informará no canal se o envio foi realizado
+            com sucesso ou se falhou, por exemplo, caso suas mensagens diretas estejam desativadas.
+
+
+            - **Usos:**
+              - `.preferências`, `.pref`
+              - `/preferências`
+              - `@NinhoCanary preferências`, `@NinhoCanary pref`
+            - **Funcionamento:** Abre um painel interativo de preferências do usuário, permitindo visualizar e alterar todas as preferências disponíveis para a sua conta. As alterações afetam apenas as suas interações com o NinhoCanary.
+
+
+            {support_text}
+
+          language:
+            description: >-
+              Permite alterar o idioma que o NinhoCanary utilizará com você. Essa
+              preferência tem prioridade sobre o idioma configurado pelos servidores
+              em que você participa.
+
+
+              Por exemplo, se um servidor estiver configurado para utilizar **inglês**,
+              mas você definir **português** como idioma nas suas preferências,
+              o NinhoCanary responderá em **português** para você.
+
+
+              Essa configuração afeta apenas as suas interações com o NinhoCanary,
+              não alterando o idioma utilizado para outros membros ou para o servidor.
+
+
+              {support_text}
+
+          level_up_notification_dm:
+            description: >-
+              Permite desativar as notificações de level up por mensagem direta (DM).
+              Essas notificações são enviadas apenas por servidores que
+              configuraram essa opção.
+
+
+              Essa configuração afeta apenas as notificações enviadas por DM. As
+              mensagens de level up enviadas nos canais dos servidores continuarão
+              sendo exibidas normalmente.
+
+
+              {support_text}
+
+      misc_commands:
+        description: >-
+          Os comandos diversos reúnem funcionalidades úteis que não se
+          encaixam nas demais categorias do NinhoCanary, como acesso à
+          central de ajuda e sistema de votos para apoiar o projeto.
+
+
+          Abaixo, você encontrará um menu com todos os comandos
+          disponíveis nesta categoria. Selecione um deles para
+          obter mais detalhes.
+
+
+          {support_text}
+
+        help:
+          description: >-
+            Permite acessar a central de ajuda do NinhoCanary, com informações sobre comandos,
+            funcionalidades e uso geral do Ninho.
+
+
+            Quando utilizado como comando de barra (`/`), o painel será enviado em uma
+            mensagem efêmera no canal onde você executou o comando, visível apenas para você.
+            Já ao utilizar o comando por prefixo, o NinhoCanary tentará enviar o painel por
+            mensagem direta (DM) e, em seguida, informará no canal se o envio foi realizado
+            com sucesso ou se falhou, por exemplo, caso suas mensagens diretas estejam desativadas.
+
+
+            - **Usos:**
+              - `.ajuda`
+              - `/ajuda`
+              - `@NinhoCanary ajuda`
+            - **Funcionamento:** Abre um painel interativo de ajuda do NinhoCanary, com informações sobre comandos, funcionalidades e uso do Ninho.
+
+
+            {support_text}
+
+        vote:
+          description: >-
+            Votos ajudam o NinhoCanary a ganhar mais alcance e a ser conhecido por mais
+            pessoas. Isso incentiva o desenvolvimento contínuo do Ninho, incluindo novas
+            funcionalidades e melhorias nas existentes.
+
+
+            Ao votar, o usuário recebe um boost de **+10% no ganho de XP**, válido para o
+            XP local dentro dos servidores, XP global e também para a contribuição no XP
+            do servidor.
+
+
+            Cada boost tem duração de **12 horas** e pode ser renovado ao votar novamente
+            após esse período.
+
+
+            Após o voto, o NinhoCanary envia uma mensagem de agradecimento. Ao final do
+            boost, o usuário recebe um lembrete com o link direto para votar novamente no
+            Top.gg.
+
+
+            - **Usos:**
+              - `.votar`
+              - `/votar`
+              - `@NinhoCanary votar`
+            - **Funcionamento:** Envia uma mensagem com link direto para o Top.gg para votar no NinhoCanary.
+
+
+            {support_text}
+
+    menus:
+      options:
+        labels:
+          xp_commands: 'Comandos de XP'
+          lb_commands: 'Comandos de Ranking'
+          config_commands: 'Comandos de Configuração'
+          misc_commands: 'Comandos Miscelâneos'
+
+      xp_commands:
+        options:
+          labels:
+            xp_edit: 'Editar XP'
+            local_xp: 'XP no Servidor'
+            global_xp: 'XP Global'
+            server_xp: 'XP do Servidor'
+            back: 'Voltar'
+
+      lb_commands:
+        options:
+          labels:
+            local_lb: 'Ranking do Servidor'
+            global_lb: 'Ranking Global'
+            server_lb: 'Ranking de Servidores'
+            back: 'Voltar'
+
+      config_commands:
+        options:
+          labels:
+            preferences: 'Preferências'
+            config: 'Configurações'
+            back: 'Voltar'
+
+        config:
+          options:
+            labels:
+              language: 'Idioma'
+              xp_multipliers: 'Multiplicadores de XP'
+              weekend_boost: 'Bônus de fim de semana'
+              reward_roles: 'Cargos de recompensa'
+              progress_not: 'Mensagens de Level Up'
+              back: 'Voltar'
+
+        preferences:
+          options:
+            labels:
+              language: 'Idioma'
+              level_up_notification_dm: 'Notificações de Level Up na DM'
+              back: 'Voltar'
+
+      misc_commands:
+        options:
+          labels:
+            help: 'Ajuda'
+            vote: 'Votar'
+            back: 'Voltar'
+
+  success: 'Enviei o painel de ajuda na sua DM! ;)'

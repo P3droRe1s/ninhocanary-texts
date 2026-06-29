@@ -10,12 +10,27 @@ select_option:
   menus:
     options:
       label:
+        language: 'Language'
         xp_multiplier: 'XP Multipliers'
         weekend: 'Weekend Boost'
         rewards: 'Reward Roles'
         notification: 'Progress Notifications'
 
   embed:
+    language:
+      title: 'Language'
+      description:
+        Here you can select one of the available languages for Ninho
+        to use in this server. If a member has a preferred language
+        configured, Ninho will use that language instead of the
+        language defined for this server.
+
+
+        - **Language:** {language}.
+
+
+        {support_text}
+
     multiplier:
       title: 'XP Multipliers'
       description:

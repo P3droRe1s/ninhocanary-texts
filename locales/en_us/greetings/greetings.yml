@@ -1,0 +1,27 @@
+greetings:
+  mention:
+    mention_message: >-
+      Ayo, {user_mention}! My prefix is `{prefix}`, but you can also use my slash
+      commands (`/`). Use `.help` to see everything I can do. {sunglasses}
+
+  welcome:
+    welcome_message:
+      embed:
+        title: 'Yay! Thanks for adding me!'
+        description: >-
+          Ayooo! Thanks for adding me to your server. I'm very happy
+          to be part of this amazing community!
+
+
+          I'm **NinhoCanary**, a **powerful leveling bot** with **voice**
+          and **text XP**, and many more features!
+
+
+          To get started, use `.help` to see everything I can do.
+          Use `.config` to adjust my settings in this server, or `.pref`
+          to adjust your preferences with me.
+
+
+          If you want, you can join our amazing [support server]({support_guild})!
+          You can also invite me to another server by [clicking here]({bot_invite}).
+          {sunglasses}

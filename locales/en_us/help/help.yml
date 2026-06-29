@@ -1,0 +1,529 @@
+help:
+  help_command:
+    embeds:
+      command_embed:
+        title: 'NinhoCanary Help Center'
+        description: >-
+          Hey there, {user_mention}! Welcome to my Help Center!
+
+
+          Here you can explore all of my commands and learn more about everything
+          I can do.
+
+
+          You can use my commands with the `.` prefix, by mentioning me, or with
+          slash commands (`/`). Even better, the order of the options doesn't matter! :)
+
+
+          Use the menu below to choose a category and start exploring my features.
+
+
+          If you need help, have any questions, or run into an issue, feel free to join
+          our [support server]({support_guild}).
+
+
+          - [Terms of Service]({tos_link})
+
+          - [Privacy Policy]({privacy_link})
+
+          - [Support Server]({support_guild})
+
+  select_commands:
+    embeds:
+      xp_commands:
+        description: >-
+          XP commands let you view essential information about your
+          progress in the experience system. There are three types of XP:
+          Member XP, Global XP, and Server XP. Select a command from the menu below to learn more.
+
+
+          {support_text}
+
+        xp_edit:
+          description: >-
+            Let's you manually edit a member's XP within a server. This
+            change affects only the member's individual Member XP in the
+            server where the command is used. It does not affect the
+            member's Global XP or the server's total Server XP.
+
+
+            Only the server owner and members with the **Administrator**
+            permission can use this command.
+
+
+            - **Usage:**
+              - `.xp edit <member> <type> <xp>`
+              - `/xp edit <member> <type> <xp>`
+              - `@NinhoCanary xp edit <member> <type> <xp>`
+            - **How it works:** Updates a member's XP.
+
+            - **Notes:**
+              - You can provide the options in any order.
+              - The `<member>`, `<type>`, and `<xp>` options are required.
+              - The `<xp>` value must be a whole number.
+              - The `<type>` option must be either `text` or `voice`.
+
+            {support_text}
+
+        local_xp:
+          description: >-
+            Member XP is the experience a member earns by interacting in text and
+            voice channels within a server. The amount of XP you receive can be
+            affected by server settings, such as role-based XP multipliers,
+            weekend boosts, and other perks configured by the server's
+            administrators.
+
+
+            In addition, administrators can set up automatic rewards, such as
+            special roles, which are granted to members when they reach specific
+            XP milestones.
+
+
+            - **Usage:**
+              - `.xp <member>`
+              - `/xp view <member>`
+              - `@NinhoCanary xp <member>`
+            - **How it works:** Displays a member's Member XP progress in the current server. If no member is specified, your own server statistics will be shown.
+
+
+            {support_text}
+
+        global_xp:
+          description: >-
+            Global XP is the experience a member earns across every server that
+            uses NinhoCanary. Whenever you interact in text or voice channels,
+            part of the XP you earn also contributes to your global progress.
+
+
+            Unlike Member XP, Global XP is not affected by XP multipliers,
+            weekend boosts, or any other server-specific settings. This ensures
+            that everyone competes on equal terms.
+
+
+            By default, Global XP receives a 2.0x boost on Fridays, Saturdays,
+            and Sundays. In addition, the highest-ranked members on the global
+            leaderboard may receive quarterly rewards such as cash prizes,
+            Nitro subscriptions, and collectible items from the official Discord
+            Shop.
+
+
+            - **Usage:**
+              - `.xp global <member>`
+              - `/xp global <member>`
+              - `@NinhoCanary xp global <member>`
+            - **How it works:** Displays a member's Global XP progress across all servers using NinhoCanary. If no member is specified, your own global statistics will be shown.
+
+
+            {support_text}
+
+        server_xp:
+          description: >-
+            Server XP represents the combined Member XP of every member in the
+            server. Every message sent and every period of activity in voice
+            channels contributes to each member's Member XP, and in turn to the
+            server's total Server XP.
+
+
+            Because Server XP is the sum of each member's Member XP, it is
+            affected by the same server settings, such as role-based XP
+            multipliers and weekend boosts, that apply to Member XP.
+
+
+            By default, Server XP receives a 2.0x boost on Fridays, Saturdays,
+            and Sundays. The more active the community is during this period,
+            the faster the server can climb the global leaderboard.
+
+
+            In addition, the highest-ranked servers on the global leaderboard
+            may receive quarterly rewards. Their owners may be awarded cash
+            prizes, Nitro subscriptions, and other special rewards distributed
+            by the NinhoCanary team.
+
+
+            - **Usage:**
+              - `.xp server`
+              - `/xp server`
+              - `@NinhoCanary xp server`
+            - **How it works:** Displays this server's total XP among all servers using NinhoCanary.
+
+
+            {support_text}
+
+      lb_commands:
+        description: >-
+          Leaderboards let you track the rankings of members and servers based on
+          the XP they've earned. There are three types of leaderboards: server
+          leaderboard, global member leaderboard, and global server leaderboard.
+          Select a command below to learn more.
+
+
+          {support_text}
+
+        local_lb:
+          description: >-
+            Displays an image of the current server's leaderboard showing each
+            member's rank, Member XP, Voice XP, and Total XP. Members are listed in
+            descending order based on their activity in the server where the command is used.
+
+
+            - **Usage:**
+              - `.leaderboard <page> <member>`, `.lb <page> <member>`
+              - `/leaderboard server <page> <member>`
+              - `@NinhoCanary leaderboard <page> <member>`, `@NinhoCanary lb <page> <member>`
+            - **How it works:** Displays the leaderboard for the current server. If no page is specified, page 1 is shown by default. If a member is provided, the Ninho will automatically open the page where that member appears.
+
+            - **Note:** You can provide the options in any order.
+
+
+            {support_text}
+
+        global_lb:
+          description: >-
+            Displays an image of NinhoCanary's global leaderboard, featuring the
+            top 200 members with the highest XP across the entire system. This
+            leaderboard represents the global competition between all members.
+
+
+            The leaderboard resets every three months, marking the end of a season.
+            At the end of each season, the member in 1st place may receive special rewards
+            provided by the NinhoCanary team in the official support server.
+
+
+            - **Usage:**
+              - `.leaderboard global <page> <member>`, `.lb global <page> <member>`
+              - `/leaderboard global <page> <member>`
+              - `@NinhoCanary leaderboard global <page> <member>`, `@NinhoCanary lb global <page> <member>`
+            - **How it works:** Displays NinhoCanary's global member leaderboard. If no page is specified, page 1 is shown by default. If a member is provided, the Ninho will automatically open the page where that member appears.
+
+            - **Note:** You can provide the options in any order.
+
+
+            {support_text}
+
+        server_lb:
+          description: >-
+            Displays an image of NinhoCanary's global server leaderboard
+            featuring the top 200 servers with the highest XP in the system.
+            This leaderboard represents competition between servers using
+            NinhoCanary.
+
+
+            The leaderboard resets every three months, marking the end of a season.
+            At the end of each season, the owner of the 1st-place server may receive
+            special rewards provided by the NinhoCanary team in the official support server.
+
+
+            - **Usage:**
+              - `.leaderboard servers <page>`, `.lb servers <page>`
+              - `/leaderboard servers <page>`
+              - `@NinhoCanary leaderboard servers <page>`, `@NinhoCanary lb servers <page>`
+            - **How it works:** Displays NinhoCanary's global server leaderboard. If no page is specified, page 1 is shown by default.
+
+
+            {support_text}
+
+      config_commands:
+        description: >-
+          Configuration commands allow you to customize how NinhoCanary behaves
+          for both members and servers. Member preferences affect only the member
+          who sets them and, when applicable, override the server's settings.
+          Server settings, on the other hand, determine how NinhoCanary behaves
+          for everyone in the community and can only be managed by administrators.
+
+
+          {support_text}
+
+        config:
+          description: >-
+            Let's you view and modify your server's settings through an interactive
+            panel in Discord. With this command, administrators can customize
+            NinhoCanary's behavior for everyone in the server, including the
+            language, XP multipliers, weekend boosts, reward roles, and level-up
+            messages.
+
+
+            Only the server owner and members with the **Administrator**
+            or **Manage Server** permission can use this command.
+
+
+            When used as a slash command (`/`), the settings panel is sent as an
+            ephemeral message in the channel where you ran the command, visible
+            only to you. When used as a prefix command, NinhoCanary will try to
+            send the panel via direct message (DM) and then notify the channel
+            whether it was delivered successfully or failed, for example if your
+            DMs are disabled.
+
+
+            Below you'll find a menu containing all available settings.
+            Select one to learn more.
+
+
+            - **Usage:**
+              - `.config`
+              - `/config`
+              - `@NinhoCanary config`
+            - **How it works:** Opens an interactive server settings panel where you can view and modify all available settings for your community.
+
+
+            {support_text}
+
+          language:
+            description: >-
+              Changes the default language NinhoCanary uses when responding to
+              members of the server. If a member chooses a different language in
+              their personal preferences, that preference takes priority and
+              applies only to responses sent to that member.
+
+
+              {support_text}
+
+          xp_multipliers:
+            description: >-
+              Let's you configure up to 6 roles as XP multipliers for your server.
+              Each role can have a multiplier ranging from **1.1x** to **99.9x**
+              for the XP earned by members.
+
+
+              You can also choose whether role multipliers can stack. When this
+              option is enabled, all multipliers from a member's roles are
+              multiplied together. For example, a member with a **2.0x** role and
+              a **1.5x** role will receive a final **2.5x** XP multiplier. If
+              stacking is disabled, only the highest multiplier is applied, so in
+              the same example the member would receive only **2.0x** XP.
+
+
+              {support_text}
+
+          weekend_boost:
+            description: >-
+              Let's you configure an XP multiplier that is automatically applied
+              during weekends. By default, the boost is active on Saturdays and
+              Sundays, but you can also choose to include Fridays.
+
+
+              The multiplier can be set between **1.1x** and **99.9x** and will be
+              applied to all members of the server during the configured days.
+
+
+              {support_text}
+
+          reward_roles:
+            description: >-
+              Let's you configure up to 12 reward roles that are automatically
+              granted when members reach a specified amount of XP. For each role,
+              you can define the required XP and which type of XP is considered:
+              **Text XP**, **Voice XP**, or **Total XP** (text + voice).
+
+
+              You can also choose whether reward roles can stack. When enabled,
+              members keep every reward role they've earned. Otherwise, they keep
+              only the reward role associated with the highest XP milestone
+              they've reached.
+
+
+              {support_text}
+
+          progress_not:
+            description: >-
+              Let's you configure the level-up messages that are automatically
+              sent whenever members reach a new level in the server.
+
+
+              You can choose where these messages are sent, including the
+              current channel, a specific channel, or direct messages (DMs).
+              You can also customize the message using dynamic placeholders,
+              preview it, and send test messages.
+
+
+              You can also control how often level-up messages are sent. For
+              example, setting the interval to **5** means members will receive
+              a notification only every **5 levels**.
+
+
+              By default, this feature is enabled, sends messages in the
+              channel where the member leveled up (current channel), and
+              notifies members every **5 levels**.
+
+
+              {support_text}
+
+        preferences:
+          description: >-
+            Let's you view and manage your personal preferences through an
+            interactive Discord panel. These preferences affect only your
+            experience with NinhoCanary and, when applicable, take priority
+            over the settings configured by the servers you belong to.
+
+
+            When used as a slash command (`/`), the panel is sent as an
+            ephemeral message in the channel where you ran the command,
+            visible only to you. When used as a prefix command, NinhoCanary
+            will try to send the panel via direct message (DM) and then
+            notify the channel whether it was delivered successfully or
+            failed, for example if your DMs are disabled.
+
+
+            - **Usage:**
+              - `.preferences`, `.pref`
+              - `/preferences`
+              - `@NinhoCanary preferences`, `@NinhoCanary pref`
+            - **How it works:** Opens an interactive preferences panel where you can view and modify all settings available for your account. Any changes affect only your own interactions with NinhoCanary.
+
+
+            {support_text}
+
+          language:
+            description: >-
+              Let's you choose the language NinhoCanary uses when interacting
+              with you. This preference overrides the language configured by
+              any server you are in.
+
+
+              For example, if a server is configured to use **English** but
+              you set your preferred language to **Portuguese**, NinhoCanary
+              will respond to you in **Portuguese**.
+
+
+              This setting affects only your interactions with NinhoCanary.
+              It does not change the language used for other members or for
+              the server itself.
+
+
+              {support_text}
+
+          level_up_notification_dm:
+            description: >-
+              Let's you disable level-up notifications sent through direct
+              messages (DMs). These notifications are sent only by servers
+              that have this feature enabled.
+
+
+              This setting affects only DM notifications. Level-up messages
+              sent in server channels will continue to work normally.
+
+
+              {support_text}
+
+      misc_commands:
+        description: >-
+          Miscellaneous commands include useful features that don't fit
+          into NinhoCanary's other categories, such as the Help Center
+          and the voting system that supports the project.
+
+
+          Below you'll find a menu containing all commands available in
+          this category. Select one to learn more.
+
+
+          {support_text}
+
+        help:
+          description: >-
+            Opens the NinhoCanary Help Center, where you can find
+            information about commands, features, and general Ninho usage.
+
+
+            When used as a slash command (`/`), the panel is sent as an
+            ephemeral message in the channel where you ran the command,
+            visible only to you. When used as a prefix command, NinhoCanary
+            will try to send the panel via direct message (DM) and then
+            notify the channel whether it was delivered successfully or
+            failed, for example if your DMs are disabled.
+
+
+            - **Usage:**
+              - `.help`, `.h`
+              - `/help`
+              - `@NinhoCanary help`, `@NinhoCanary h`
+            - **How it works:** Opens NinhoCanary's interactive Help Center, where you can explore commands, features, and learn how to use the Ninho.
+
+
+            {support_text}
+
+        vote:
+          description: >-
+            Voting helps NinhoCanary reach more people and continue growing.
+            Your support encourages the development of new features and
+            improvements to existing ones.
+
+
+            As a reward, you'll receive a **+10% XP gain boost**, which
+            applies to your Member XP, your Global XP, and your contribution
+            to your server's Server XP.
+
+
+            Each boost lasts **12 hours** and can be renewed by voting
+            again once it expires.
+
+
+            After you vote, NinhoCanary will send you a thank-you message.
+            When the boost expires, you'll receive a reminder with a
+            direct link to vote again on Top.gg.
+
+
+            - **Usage:**
+              - `.vote`
+              - `/vote`
+              - `@NinhoCanary vote`
+            - **How it works:** Sends a message containing a direct link to NinhoCanary's Top.gg voting page.
+
+
+            {support_text}
+
+    menus:
+      options:
+        labels:
+          xp_commands: 'XP Commands'
+          lb_commands: 'Leaderboard Commands'
+          config_commands: 'Configuration Commands'
+          misc_commands: 'Miscellaneous Commands'
+
+      xp_commands:
+        options:
+          labels:
+            xp_edit: 'Edit XP'
+            local_xp: 'Member XP'
+            global_xp: 'Global XP'
+            server_xp: 'Server XP'
+            back: 'Back'
+
+      lb_commands:
+        options:
+          labels:
+            local_lb: 'Server Leaderboard'
+            global_lb: 'Global Leaderboard'
+            server_lb: 'Global Server Leaderboard'
+            back: 'Back'
+
+      config_commands:
+        options:
+          labels:
+            preferences: 'Preferences'
+            config: 'Settings'
+            back: 'Back'
+
+        config:
+          options:
+            labels:
+              language: 'Language'
+              xp_multipliers: 'XP Multipliers'
+              weekend_boost: 'Weekend Boost'
+              reward_roles: 'Reward Roles'
+              progress_not: 'Level-up Messages'
+              back: 'Back'
+
+        preferences:
+          options:
+            labels:
+              language: 'Language'
+              level_up_notification_dm: 'DM Level-Up Notifications'
+              back: 'Back'
+
+      misc_commands:
+        options:
+          labels:
+            help: 'Help'
+            vote: 'Vote'
+            back: 'Back'
+
+  success: 'I sent the Help Center to your DMs! ;)'

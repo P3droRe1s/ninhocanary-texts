@@ -49,9 +49,9 @@ xp:
   embed_user_xp:
     title: 'View XP'
     start:
-      Here you can view essential information about 
+      Here you can view essential information about
       your progress or another member's progress
-      whitin this server.
+      within this server.
 
   friday_true: >-
 
@@ -61,7 +61,7 @@ xp:
   weekend_true: >-
 
     {oi_rsrsrs} **NOTE:** A {weekend_multiplier}x multiplier
-    is active during the weekend!'
+    is active during the weekend!
 
   ranking_none: 'Unranked'
   next_reward_head: >-

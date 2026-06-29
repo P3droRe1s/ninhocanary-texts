@@ -37,7 +37,7 @@ common:
   support: "[support server]({support_guild})"
 
   buttons:
-    open_panel: "Take me to the pannel"
+    open_panel: "Take me to the panel"
     guide: 'Guide'
 
   menus:

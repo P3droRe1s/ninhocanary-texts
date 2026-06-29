@@ -7,12 +7,12 @@ vote:
   embed:
     title: "Support me with a vote on TOP.GG"
     description: >-
-      Wassup, {user_mention}! Want to support me and help me grow? 
+      Wassup, {user_mention}! Want to support me and help me grow?
       If your answer is yes, vote me on TOP.GG!
 
 
       Every vote helps me become more popular on Discord and lets more people discover me.
-      That way, I can keep improving and bring new features that will benefit you directly
+      That way, I can keep improving and bring new features that will benefit you directly.
 
 
-      Ands as a reward for your support, I'll give you a {boost_message}. :D
+      And as a reward for your support, I'll give you a {boost_message}. :D

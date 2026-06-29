@@ -3,7 +3,7 @@ help:
     embeds:
       command_embed:
         title: 'NinhoCanary Help Center'
-        description: >-
+        description: >
           Hey there, {user_mention}! Welcome to my Help Center!
 
 
@@ -31,7 +31,7 @@ help:
   select_commands:
     embeds:
       xp_commands:
-        description: >-
+        description: >
           XP commands let you view essential information about your
           progress in the experience system. There are three types of XP:
           Member XP, Global XP, and Server XP. Select a command from the menu below to learn more.
@@ -40,8 +40,8 @@ help:
           {support_text}
 
         xp_edit:
-          description: >-
-            Let's you manually edit a member's XP within a server. This
+          description: >
+            Lets you manually edit a member's XP within a server. This
             change affects only the member's individual Member XP in the
             server where the command is used. It does not affect the
             member's Global XP or the server's total Server XP.
@@ -66,7 +66,7 @@ help:
             {support_text}
 
         local_xp:
-          description: >-
+          description: >
             Member XP is the experience a member earns by interacting in text and
             voice channels within a server. The amount of XP you receive can be
             affected by server settings, such as role-based XP multipliers,
@@ -89,7 +89,7 @@ help:
             {support_text}
 
         global_xp:
-          description: >-
+          description: >
             Global XP is the experience a member earns across every server that
             uses NinhoCanary. Whenever you interact in text or voice channels,
             part of the XP you earn also contributes to your global progress.
@@ -117,7 +117,7 @@ help:
             {support_text}
 
         server_xp:
-          description: >-
+          description: >
             Server XP represents the combined Member XP of every member in the
             server. Every message sent and every period of activity in voice
             channels contributes to each member's Member XP, and in turn to the
@@ -150,7 +150,7 @@ help:
             {support_text}
 
       lb_commands:
-        description: >-
+        description: >
           Leaderboards let you track the rankings of members and servers based on
           the XP they've earned. There are three types of leaderboards: server
           leaderboard, global member leaderboard, and global server leaderboard.
@@ -160,7 +160,7 @@ help:
           {support_text}
 
         local_lb:
-          description: >-
+          description: >
             Displays an image of the current server's leaderboard showing each
             member's rank, Member XP, Voice XP, and Total XP. Members are listed in
             descending order based on their activity in the server where the command is used.
@@ -170,7 +170,7 @@ help:
               - `.leaderboard <page> <member>`, `.lb <page> <member>`
               - `/leaderboard server <page> <member>`
               - `@NinhoCanary leaderboard <page> <member>`, `@NinhoCanary lb <page> <member>`
-            - **How it works:** Displays the leaderboard for the current server. If no page is specified, page 1 is shown by default. If a member is provided, the Ninho will automatically open the page where that member appears.
+            - **How it works:** Displays the leaderboard for the current server. If no page is specified, page 1 is shown by default. If a member is provided, the Ninho will automatically open th[...]
 
             - **Note:** You can provide the options in any order.
 
@@ -178,7 +178,7 @@ help:
             {support_text}
 
         global_lb:
-          description: >-
+          description: >
             Displays an image of NinhoCanary's global leaderboard, featuring the
             top 200 members with the highest XP across the entire system. This
             leaderboard represents the global competition between all members.
@@ -193,7 +193,7 @@ help:
               - `.leaderboard global <page> <member>`, `.lb global <page> <member>`
               - `/leaderboard global <page> <member>`
               - `@NinhoCanary leaderboard global <page> <member>`, `@NinhoCanary lb global <page> <member>`
-            - **How it works:** Displays NinhoCanary's global member leaderboard. If no page is specified, page 1 is shown by default. If a member is provided, the Ninho will automatically open the page where that member appears.
+            - **How it works:** Displays NinhoCanary's global member leaderboard. If no page is specified, page 1 is shown by default. If a member is provided, the Ninho will automatically open t[...]
 
             - **Note:** You can provide the options in any order.
 
@@ -201,7 +201,7 @@ help:
             {support_text}
 
         server_lb:
-          description: >-
+          description: >
             Displays an image of NinhoCanary's global server leaderboard
             featuring the top 200 servers with the highest XP in the system.
             This leaderboard represents competition between servers using
@@ -223,7 +223,7 @@ help:
             {support_text}
 
       config_commands:
-        description: >-
+        description: >
           Configuration commands allow you to customize how NinhoCanary behaves
           for both members and servers. Member preferences affect only the member
           who sets them and, when applicable, override the server's settings.
@@ -234,8 +234,8 @@ help:
           {support_text}
 
         config:
-          description: >-
-            Let's you view and modify your server's settings through an interactive
+          description: >
+            Lets you view and modify your server's settings through an interactive
             panel in Discord. With this command, administrators can customize
             NinhoCanary's behavior for everyone in the server, including the
             language, XP multipliers, weekend boosts, reward roles, and level-up
@@ -268,7 +268,7 @@ help:
             {support_text}
 
           language:
-            description: >-
+            description: >
               Changes the default language NinhoCanary uses when responding to
               members of the server. If a member chooses a different language in
               their personal preferences, that preference takes priority and
@@ -278,8 +278,8 @@ help:
               {support_text}
 
           xp_multipliers:
-            description: >-
-              Let's you configure up to 6 roles as XP multipliers for your server.
+            description: >
+              Lets you configure up to 6 roles as XP multipliers for your server.
               Each role can have a multiplier ranging from **1.1x** to **99.9x**
               for the XP earned by members.
 
@@ -295,8 +295,8 @@ help:
               {support_text}
 
           weekend_boost:
-            description: >-
-              Let's you configure an XP multiplier that is automatically applied
+            description: >
+              Lets you configure an XP multiplier that is automatically applied
               during weekends. By default, the boost is active on Saturdays and
               Sundays, but you can also choose to include Fridays.
 
@@ -308,8 +308,8 @@ help:
               {support_text}
 
           reward_roles:
-            description: >-
-              Let's you configure up to 12 reward roles that are automatically
+            description: >
+              Lets you configure up to 12 reward roles that are automatically
               granted when members reach a specified amount of XP. For each role,
               you can define the required XP and which type of XP is considered:
               **Text XP**, **Voice XP**, or **Total XP** (text + voice).
@@ -324,8 +324,8 @@ help:
               {support_text}
 
           progress_not:
-            description: >-
-              Let's you configure the level-up messages that are automatically
+            description: >
+              Lets you configure the level-up messages that are automatically
               sent whenever members reach a new level in the server.
 
 
@@ -348,8 +348,8 @@ help:
               {support_text}
 
         preferences:
-          description: >-
-            Let's you view and manage your personal preferences through an
+          description: >
+            Lets you view and manage your personal preferences through an
             interactive Discord panel. These preferences affect only your
             experience with NinhoCanary and, when applicable, take priority
             over the settings configured by the servers you belong to.
@@ -367,14 +367,14 @@ help:
               - `.preferences`, `.pref`
               - `/preferences`
               - `@NinhoCanary preferences`, `@NinhoCanary pref`
-            - **How it works:** Opens an interactive preferences panel where you can view and modify all settings available for your account. Any changes affect only your own interactions with NinhoCanary.
+            - **How it works:** Opens an interactive preferences panel where you can view and modify all settings available for your account. Any changes affect only your own interactions with Ni[...]
 
 
             {support_text}
 
           language:
-            description: >-
-              Let's you choose the language NinhoCanary uses when interacting
+            description: >
+              Lets you choose the language NinhoCanary uses when interacting
               with you. This preference overrides the language configured by
               any server you are in.
 
@@ -392,8 +392,8 @@ help:
               {support_text}
 
           level_up_notification_dm:
-            description: >-
-              Let's you disable level-up notifications sent through direct
+            description: >
+              Lets you disable level-up notifications sent through direct
               messages (DMs). These notifications are sent only by servers
               that have this feature enabled.
 
@@ -405,7 +405,7 @@ help:
               {support_text}
 
       misc_commands:
-        description: >-
+        description: >
           Miscellaneous commands include useful features that don't fit
           into NinhoCanary's other categories, such as the Help Center
           and the voting system that supports the project.
@@ -418,7 +418,7 @@ help:
           {support_text}
 
         help:
-          description: >-
+          description: >
             Opens the NinhoCanary Help Center, where you can find
             information about commands, features, and general Ninho usage.
 
@@ -441,7 +441,7 @@ help:
             {support_text}
 
         vote:
-          description: >-
+          description: >
             Voting helps NinhoCanary reach more people and continue growing.
             Your support encourages the development of new features and
             improvements to existing ones.

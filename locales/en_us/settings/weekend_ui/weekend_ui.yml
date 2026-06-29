@@ -10,7 +10,7 @@ manage_weekend_options:
     enable_friday_boost:
       label: 'Enable Friday boost'
 
-    chance_xp_boost:
+    change_xp_boost:
       label: 'Change XP boost'
 
   modals:
@@ -22,7 +22,7 @@ manage_weekend_options:
     friday_status: '**Friday Boost:** {status}.'
     xp_multiplier: '**XP Multiplier:** {multiplier}x.'
 
-  note: >-
+  note: >
 
 
     **NOTE:** Some settings here may not work properly because

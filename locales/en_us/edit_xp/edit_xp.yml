@@ -16,7 +16,7 @@ edit_xp:
       Hey! Only the server owner and administrators
       can use this command.
     edit_app_xp: >
-      Lil bro, bots dont even gain XP, imagine trying to change it. {sob}{pray}
+      Lil bro, bots don't even gain XP, imagine trying to change it. {sob}{pray}
 
   success:
     xp_edited: >

@@ -29,11 +29,11 @@ manage_multiplier_options:
 
   embed:
     title: "Edit Multipliers"
-    description: >-
-      Here you can select an existing XP multiplier to view, 
-      edit its settings, or delete it if you want. Below, there's a menu 
-      with the multipliers created in this server. 
-      Just click it and choose the one you want.  
+    description: >
+      Here you can select an existing XP multiplier to view,
+      edit its settings, or delete it if you want. Below, there's a menu
+      with the multipliers created in this server.
+      Just click it and choose the one you want.
 
 
       {support_text}
@@ -41,9 +41,9 @@ manage_multiplier_options:
     stacking_status: '**Stacking Multipliers:** {status}.'
 
   embed_role:
-    description: >-
-      Here you can view, adjust, or delete this role you've set 
-      as an XP multiplier. XP multiplier roles determine how much extra XP 
+    description: >
+      Here you can view, adjust, or delete this role you've set
+      as an XP multiplier. XP multiplier roles determine how much extra XP
       members with this role will receive.
 
 
@@ -56,7 +56,7 @@ manage_multiplier_options:
     role_text: "**Role:** {role_formatted}."
     text_boost: "**Multiplier:** {boost}x."
 
-  note: >-
+  note: >
 
 
      **NOTE:** Some settings here may not work properly
@@ -67,7 +67,7 @@ manage_role_multiplier_options:
     change_multiplication:
       label: "Change multiplier"
 
-    del_multplier:
+    delete_multiplier:
       label: "Delete multiplier"
 
   messages:

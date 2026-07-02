@@ -1,7 +1,7 @@
 xp:
   errors:
     server_xp_guild_only: >
-      Hey man, this command only works inside servers {sob}.
+      This command only works inside servers {sob}.
       If you want to see your global XP, use `.xp global`.
 
   buttons:
@@ -60,7 +60,7 @@ xp:
 
   weekend_true: >-
 
-    {oi_rsrsrs} **NOTE:** A {weekend_multiplier}x multiplier
+    {sparkles} **NOTE:** A {weekend_multiplier}x multiplier
     is active during the weekend!
 
   ranking_none: 'Unranked'
@@ -69,7 +69,7 @@ xp:
     {present} **Next Reward(s):**
   reward_info: >-
 
-    ㅤ• {reward_mention} ({r_type_str}) _~ [{user_xp}/{xp_required}]_
+    • {reward_mention} ({r_type_str}) _~ [{user_xp}/{xp_required}]_
 
   multiplier_info:
     not_stacking: >-
